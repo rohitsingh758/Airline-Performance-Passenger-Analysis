@@ -1,0 +1,1001 @@
+Passenger_ID,Age,Gender,Airline,Source_Airport,Destination_Airport,Travel_Class,Flight_Date,Ticket_Price,Delay_Minutes,Flight_Status
+P0001,40,Male,Vistara,Chennai,Bangalore,Business,2024-07-07,8755,162,Delayed
+P0002,57,Female,Air India,Hyderabad,Delhi,Business,2024-07-15,5796,0,Cancelled
+P0003,24,Male,Indigo,Hyderabad,Mumbai,Business,2024-10-17,7243,71,On Time
+P0004,47,Male,Indigo,Mumbai,Kolkata,Economy,2024-03-30,10783,0,Delayed
+P0005,61,Male,Vistara,Chennai,Kolkata,Business,2024-03-03,7290,0,Delayed
+P0006,70,Female,Indigo,Delhi,Chennai,Business,2024-03-12,11009,179,Cancelled
+P0007,26,Male,Vistara,Mumbai,Hyderabad,Business,2024-09-23,5727,34,Delayed
+P0008,18,Male,Vistara,Hyderabad,Chennai,Business,2024-12-28,4329,135,Delayed
+P0009,43,Male,Vistara,Bangalore,Hyderabad,Business,2024-07-20,8916,106,Cancelled
+P0010,45,Male,Air India,Bangalore,Mumbai,Business,2024-03-28,10241,77,On Time
+P0011,30,Female,Vistara,Kolkata,Mumbai,Economy,2024-10-27,5348,34,Delayed
+P0012,69,Male,Indigo,Bangalore,Chennai,Business,2024-02-22,3425,50,On Time
+P0013,29,Male,Air India,Chennai,Delhi,Business,2024-09-23,3920,131,Delayed
+P0014,56,Male,SpiceJet,Chennai,Bangalore,Business,2024-08-29,11619,0,On Time
+P0015,46,Female,Akasa Air,Delhi,Kolkata,Business,2024-08-15,10521,0,Delayed
+P0016,55,Male,Akasa Air,Kolkata,Delhi,Business,2024-09-27,8623,24,Cancelled
+P0017,19,Male,Air India,Bangalore,Hyderabad,Business,2024-03-17,11620,82,On Time
+P0018,59,Male,Air India,Delhi,Mumbai,Business,2024-12-18,11142,0,On Time
+P0019,30,Male,Air India,Chennai,Hyderabad,Business,2024-05-21,5395,110,Delayed
+P0020,53,Male,Vistara,Hyderabad,Delhi,Business,2024-01-20,9214,92,Delayed
+P0021,21,Male,Indigo,Chennai,Bangalore,Economy,2024-12-13,3223,0,Delayed
+P0022,50,Male,Vistara,Delhi,Hyderabad,Economy,2024-06-19,5486,0,On Time
+P0023,46,Male,Indigo,Delhi,Bangalore,Economy,2024-08-07,2906,150,Cancelled
+P0024,51,Male,Air India,Chennai,Delhi,Economy,2024-01-15,3874,0,Delayed
+P0025,61,Female,Akasa Air,Chennai,Delhi,Business,2024-12-03,9353,0,Cancelled
+P0026,49,Male,Vistara,Bangalore,Hyderabad,Business,2024-08-17,7186,108,Delayed
+P0027,69,Male,Akasa Air,Chennai,Kolkata,Economy,2024-11-19,11361,0,On Time
+P0028,43,Male,Indigo,Chennai,Delhi,Economy,2024-11-16,3874,92,On Time
+P0029,32,Female,Indigo,Bangalore,Kolkata,Business,2024-03-24,9432,164,Cancelled
+P0030,42,Male,Akasa Air,Chennai,Bangalore,Business,2024-10-17,11382,46,On Time
+P0031,20,Female,Indigo,Chennai,Kolkata,Economy,2024-07-23,11808,51,Delayed
+P0032,20,Male,Air India,Kolkata,Chennai,Economy,2024-01-07,7867,0,Cancelled
+P0033,24,Male,Akasa Air,Mumbai,Hyderabad,Business,2024-08-21,9710,28,On Time
+P0034,65,Female,Air India,Delhi,Chennai,Business,2024-04-27,7338,0,Delayed
+P0035,65,Male,Akasa Air,Delhi,Hyderabad,Economy,2024-01-04,7271,119,Cancelled
+P0036,64,Male,SpiceJet,Chennai,Bangalore,Economy,2024-03-30,7673,0,Delayed
+P0037,18,Male,Air India,Chennai,Kolkata,Economy,2024-04-05,7933,109,Delayed
+P0038,39,Male,Indigo,Mumbai,Kolkata,Business,2024-07-28,3361,0,Delayed
+P0039,27,Female,Air India,Mumbai,Delhi,Business,2024-06-17,8921,61,Cancelled
+P0040,27,Male,Akasa Air,Kolkata,Delhi,Business,2024-04-05,11730,0,Delayed
+P0041,31,Female,SpiceJet,Hyderabad,Chennai,Economy,2024-06-07,9621,73,Delayed
+P0042,44,Male,Air India,Delhi,Hyderabad,Economy,2024-06-25,8584,0,Cancelled
+P0043,58,Female,SpiceJet,Hyderabad,Delhi,Business,2024-04-18,6967,18,On Time
+P0044,36,Female,Indigo,Chennai,Kolkata,Economy,2024-09-12,11357,15,Cancelled
+P0045,69,Female,SpiceJet,Hyderabad,Mumbai,Economy,2024-07-19,10348,28,On Time
+P0046,38,Female,Vistara,Hyderabad,Mumbai,Economy,2024-08-05,2560,0,On Time
+P0047,26,Female,SpiceJet,Bangalore,Hyderabad,Economy,2024-04-22,9025,141,Cancelled
+P0048,41,Male,SpiceJet,Chennai,Hyderabad,Business,2024-01-09,6455,0,Cancelled
+P0049,35,Male,Vistara,Kolkata,Mumbai,Economy,2024-08-07,11392,97,Delayed
+P0050,50,Male,Akasa Air,Bangalore,Kolkata,Economy,2024-05-24,3532,164,On Time
+P0051,25,Female,Air India,Chennai,Mumbai,Business,2024-10-26,2746,0,Cancelled
+P0052,59,Male,Vistara,Mumbai,Chennai,Economy,2024-01-27,7724,141,Cancelled
+P0053,22,Female,Air India,Kolkata,Mumbai,Economy,2024-09-29,6323,93,On Time
+P0054,25,Male,Vistara,Chennai,Delhi,Economy,2024-11-29,6489,0,On Time
+P0055,51,Male,Akasa Air,Mumbai,Chennai,Business,2024-03-13,7258,0,Cancelled
+P0056,42,Male,SpiceJet,Bangalore,Mumbai,Economy,2024-12-20,3259,128,On Time
+P0057,31,Female,Vistara,Delhi,Bangalore,Economy,2024-02-12,10404,26,Cancelled
+P0058,44,Female,Air India,Hyderabad,Kolkata,Business,2024-08-01,9614,0,On Time
+P0059,58,Female,Akasa Air,Delhi,Mumbai,Business,2024-02-25,6503,36,Cancelled
+P0060,33,Male,Indigo,Mumbai,Bangalore,Business,2024-06-23,7229,0,Delayed
+P0061,41,Female,Indigo,Delhi,Chennai,Economy,2024-04-05,4296,131,Cancelled
+P0062,41,Male,Akasa Air,Kolkata,Mumbai,Business,2024-10-31,3798,43,Cancelled
+P0063,32,Male,Akasa Air,Mumbai,Bangalore,Business,2024-08-27,10933,13,On Time
+P0064,21,Male,SpiceJet,Chennai,Mumbai,Business,2024-01-05,11240,146,On Time
+P0065,69,Female,SpiceJet,Hyderabad,Kolkata,Economy,2024-02-21,8571,48,Cancelled
+P0066,69,Male,Akasa Air,Mumbai,Bangalore,Business,2024-06-04,8114,0,Delayed
+P0067,61,Male,Akasa Air,Mumbai,Hyderabad,Economy,2024-08-23,11328,0,Delayed
+P0068,35,Male,Indigo,Mumbai,Bangalore,Economy,2024-06-15,9626,84,On Time
+P0069,32,Female,Vistara,Mumbai,Hyderabad,Economy,2024-08-24,4360,155,Cancelled
+P0070,34,Female,Akasa Air,Chennai,Bangalore,Business,2024-01-11,2740,18,On Time
+P0071,46,Female,Akasa Air,Delhi,Hyderabad,Business,2024-03-06,5172,166,Cancelled
+P0072,49,Female,Vistara,Delhi,Bangalore,Economy,2024-11-29,11769,0,Delayed
+P0073,25,Male,Indigo,Kolkata,Mumbai,Economy,2024-12-26,5995,0,On Time
+P0074,34,Male,Vistara,Kolkata,Mumbai,Business,2024-02-08,8834,77,On Time
+P0075,44,Male,Akasa Air,Chennai,Bangalore,Business,2024-01-13,8758,15,Cancelled
+P0076,47,Female,Vistara,Hyderabad,Delhi,Business,2024-06-10,5202,36,Cancelled
+P0077,69,Female,Air India,Mumbai,Bangalore,Economy,2024-07-03,7079,0,Cancelled
+P0078,47,Male,Akasa Air,Chennai,Mumbai,Business,2024-12-20,7765,145,Cancelled
+P0079,70,Male,Vistara,Delhi,Bangalore,Business,2024-02-28,7536,0,Delayed
+P0080,29,Female,Air India,Delhi,Hyderabad,Economy,2024-09-07,10823,0,Delayed
+P0081,49,Female,SpiceJet,Chennai,Kolkata,Business,2024-04-21,10337,0,On Time
+P0082,36,Male,Indigo,Hyderabad,Chennai,Business,2024-08-24,7235,0,On Time
+P0083,45,Male,Indigo,Mumbai,Chennai,Business,2024-07-21,10573,180,Delayed
+P0084,30,Male,Akasa Air,Bangalore,Kolkata,Economy,2024-01-06,8057,172,Cancelled
+P0085,57,Female,Indigo,Mumbai,Hyderabad,Economy,2024-11-26,6675,0,Delayed
+P0086,18,Female,Akasa Air,Bangalore,Hyderabad,Business,2024-07-12,8840,49,Cancelled
+P0087,25,Female,Vistara,Delhi,Bangalore,Business,2024-12-04,5767,146,On Time
+P0088,70,Female,Vistara,Delhi,Hyderabad,Business,2024-09-24,8953,0,Delayed
+P0089,63,Male,Vistara,Mumbai,Kolkata,Business,2024-05-08,3647,0,On Time
+P0090,64,Male,Air India,Kolkata,Mumbai,Business,2024-09-01,2852,122,Delayed
+P0091,25,Male,Akasa Air,Bangalore,Kolkata,Business,2024-12-21,11255,0,On Time
+P0092,62,Male,SpiceJet,Mumbai,Hyderabad,Business,2024-04-20,6885,0,Cancelled
+P0093,24,Male,Vistara,Hyderabad,Delhi,Business,2024-11-24,9199,112,On Time
+P0094,65,Female,SpiceJet,Delhi,Hyderabad,Economy,2024-10-26,3485,179,Delayed
+P0095,30,Female,Indigo,Bangalore,Hyderabad,Business,2024-10-02,7660,0,Delayed
+P0096,63,Male,Air India,Chennai,Bangalore,Economy,2024-05-08,4401,0,On Time
+P0097,53,Male,Akasa Air,Delhi,Mumbai,Economy,2024-04-05,11227,0,Cancelled
+P0098,30,Male,SpiceJet,Hyderabad,Delhi,Economy,2024-01-10,6178,156,On Time
+P0099,40,Male,Akasa Air,Chennai,Kolkata,Economy,2024-09-03,9636,72,On Time
+P0100,37,Female,Air India,Kolkata,Hyderabad,Economy,2024-02-05,10656,0,Cancelled
+P0101,24,Male,Air India,Hyderabad,Kolkata,Business,2024-01-27,3236,0,On Time
+P0102,58,Female,Vistara,Mumbai,Delhi,Economy,2024-06-22,11166,65,Delayed
+P0103,27,Male,Akasa Air,Bangalore,Kolkata,Business,2024-06-06,11692,128,Cancelled
+P0104,26,Female,Air India,Hyderabad,Mumbai,Business,2024-04-30,9098,46,On Time
+P0105,47,Male,Vistara,Mumbai,Delhi,Economy,2024-11-02,4093,51,Cancelled
+P0106,61,Female,SpiceJet,Delhi,Mumbai,Business,2024-03-05,8536,0,On Time
+P0107,56,Male,Indigo,Delhi,Bangalore,Business,2024-10-26,3557,165,Cancelled
+P0108,22,Female,Indigo,Mumbai,Hyderabad,Business,2024-02-05,4596,0,Cancelled
+P0109,21,Female,Indigo,Kolkata,Chennai,Business,2024-10-24,11538,26,Delayed
+P0110,60,Male,Air India,Bangalore,Chennai,Economy,2024-10-28,8591,135,Cancelled
+P0111,36,Male,SpiceJet,Kolkata,Hyderabad,Business,2024-08-08,11958,0,Delayed
+P0112,28,Female,SpiceJet,Bangalore,Mumbai,Business,2024-05-09,9158,0,On Time
+P0113,40,Male,Vistara,Mumbai,Chennai,Business,2024-04-29,8891,0,Delayed
+P0114,20,Male,SpiceJet,Kolkata,Chennai,Business,2024-06-01,3900,0,Cancelled
+P0115,40,Female,Akasa Air,Chennai,Delhi,Business,2024-10-02,10849,0,Delayed
+P0116,36,Male,SpiceJet,Mumbai,Chennai,Economy,2024-07-07,10654,19,On Time
+P0117,56,Female,SpiceJet,Bangalore,Chennai,Economy,2024-06-11,11800,0,Cancelled
+P0118,49,Female,Akasa Air,Chennai,Delhi,Business,2024-08-06,6597,132,On Time
+P0119,41,Female,Akasa Air,Hyderabad,Kolkata,Economy,2024-03-28,5848,60,On Time
+P0120,33,Male,Vistara,Kolkata,Chennai,Economy,2024-09-24,11077,0,Cancelled
+P0121,43,Female,Akasa Air,Mumbai,Delhi,Economy,2024-12-02,10457,93,Delayed
+P0122,38,Female,Indigo,Hyderabad,Delhi,Business,2024-04-20,4224,112,On Time
+P0123,53,Female,Air India,Bangalore,Mumbai,Economy,2024-10-13,5679,0,On Time
+P0124,55,Female,SpiceJet,Hyderabad,Delhi,Economy,2024-10-09,6309,0,Delayed
+P0125,67,Male,Indigo,Delhi,Hyderabad,Economy,2024-01-11,11457,79,Delayed
+P0126,33,Female,Air India,Delhi,Bangalore,Business,2024-07-15,6000,0,Delayed
+P0127,69,Male,Indigo,Hyderabad,Bangalore,Business,2024-05-03,8931,0,On Time
+P0128,33,Male,Air India,Hyderabad,Kolkata,Business,2024-05-31,3479,96,Cancelled
+P0129,46,Female,Akasa Air,Hyderabad,Bangalore,Business,2024-03-01,6680,55,Cancelled
+P0130,23,Female,Air India,Bangalore,Delhi,Business,2024-02-13,8478,0,On Time
+P0131,52,Female,Akasa Air,Mumbai,Chennai,Business,2024-11-02,9598,0,On Time
+P0132,37,Female,Akasa Air,Hyderabad,Chennai,Economy,2024-08-05,10791,167,On Time
+P0133,29,Female,Indigo,Mumbai,Kolkata,Business,2024-10-17,6821,134,Delayed
+P0134,21,Male,Air India,Chennai,Bangalore,Economy,2024-12-05,7827,20,On Time
+P0135,65,Female,Air India,Bangalore,Kolkata,Economy,2024-11-14,11965,171,On Time
+P0136,66,Male,Akasa Air,Hyderabad,Chennai,Business,2024-10-23,8566,16,Cancelled
+P0137,39,Female,Air India,Hyderabad,Delhi,Economy,2024-05-29,3868,0,Delayed
+P0138,58,Female,Akasa Air,Hyderabad,Mumbai,Economy,2024-04-03,4432,0,Cancelled
+P0139,30,Female,Indigo,Chennai,Mumbai,Economy,2024-12-21,4537,34,Cancelled
+P0140,37,Female,Vistara,Mumbai,Delhi,Economy,2024-04-30,11753,136,Cancelled
+P0141,62,Female,Akasa Air,Chennai,Delhi,Economy,2024-02-08,7114,0,Delayed
+P0142,31,Male,Indigo,Bangalore,Mumbai,Business,2024-11-26,2638,124,Delayed
+P0143,58,Female,SpiceJet,Delhi,Bangalore,Business,2024-06-11,11788,0,Delayed
+P0144,68,Male,Vistara,Bangalore,Chennai,Economy,2024-09-12,4685,0,Delayed
+P0145,24,Female,Akasa Air,Bangalore,Mumbai,Economy,2024-01-19,4218,79,On Time
+P0146,35,Male,Vistara,Mumbai,Kolkata,Economy,2024-01-06,9353,0,Cancelled
+P0147,56,Female,Vistara,Kolkata,Delhi,Economy,2024-11-04,8311,0,Cancelled
+P0148,41,Male,Vistara,Delhi,Kolkata,Economy,2024-11-28,11036,0,Delayed
+P0149,59,Female,Indigo,Bangalore,Hyderabad,Economy,2024-09-19,5991,15,On Time
+P0150,37,Male,Akasa Air,Bangalore,Delhi,Business,2024-09-02,6522,0,On Time
+P0151,54,Female,Vistara,Hyderabad,Bangalore,Business,2024-07-15,8525,0,On Time
+P0152,27,Female,SpiceJet,Hyderabad,Bangalore,Business,2024-06-14,7372,161,On Time
+P0153,62,Female,SpiceJet,Hyderabad,Mumbai,Economy,2024-10-17,10149,0,Delayed
+P0154,50,Male,Air India,Bangalore,Mumbai,Economy,2024-07-20,4614,0,Delayed
+P0155,25,Male,SpiceJet,Kolkata,Hyderabad,Business,2024-02-09,8933,159,Cancelled
+P0156,62,Female,Air India,Kolkata,Chennai,Economy,2024-11-12,3516,152,Delayed
+P0157,37,Male,Indigo,Chennai,Mumbai,Business,2024-08-24,6689,70,Delayed
+P0158,49,Male,Akasa Air,Bangalore,Delhi,Economy,2024-11-07,8913,178,On Time
+P0159,33,Male,Air India,Mumbai,Chennai,Business,2024-12-21,11063,0,On Time
+P0160,66,Male,Vistara,Delhi,Bangalore,Economy,2024-04-09,11484,144,On Time
+P0161,56,Male,Vistara,Kolkata,Hyderabad,Economy,2024-07-30,5612,0,On Time
+P0162,69,Female,Indigo,Mumbai,Hyderabad,Business,2024-08-04,8629,0,On Time
+P0163,20,Female,Akasa Air,Delhi,Chennai,Business,2024-05-22,7875,0,On Time
+P0164,27,Male,SpiceJet,Kolkata,Delhi,Business,2024-08-16,9184,0,Cancelled
+P0165,55,Male,Indigo,Hyderabad,Mumbai,Business,2024-07-09,3543,0,Delayed
+P0166,21,Female,Vistara,Delhi,Hyderabad,Economy,2024-11-10,3274,0,Delayed
+P0167,24,Male,Indigo,Kolkata,Hyderabad,Economy,2024-10-03,9522,150,Delayed
+P0168,45,Female,Indigo,Delhi,Bangalore,Economy,2024-02-25,10626,0,Cancelled
+P0169,50,Female,Indigo,Bangalore,Hyderabad,Economy,2024-08-28,10281,0,Delayed
+P0170,27,Female,SpiceJet,Delhi,Chennai,Business,2024-02-21,10279,23,On Time
+P0171,60,Male,SpiceJet,Kolkata,Bangalore,Business,2024-05-03,3560,0,On Time
+P0172,38,Male,Indigo,Chennai,Delhi,Economy,2024-11-24,2667,176,Cancelled
+P0173,55,Female,Air India,Bangalore,Chennai,Business,2024-02-17,11830,102,On Time
+P0174,47,Female,Air India,Kolkata,Mumbai,Economy,2024-11-29,5222,0,On Time
+P0175,39,Male,Indigo,Mumbai,Hyderabad,Business,2024-02-15,8736,150,Cancelled
+P0176,38,Male,Akasa Air,Mumbai,Bangalore,Business,2024-06-11,3281,0,Cancelled
+P0177,70,Male,Akasa Air,Kolkata,Chennai,Economy,2024-01-21,11480,0,Cancelled
+P0178,62,Male,Air India,Delhi,Mumbai,Business,2024-08-09,3137,13,Cancelled
+P0179,44,Male,SpiceJet,Hyderabad,Mumbai,Economy,2024-05-26,4279,0,On Time
+P0180,51,Male,Vistara,Kolkata,Bangalore,Business,2024-11-03,8722,0,On Time
+P0181,57,Female,Vistara,Hyderabad,Kolkata,Economy,2024-05-30,7203,0,Delayed
+P0182,39,Female,Air India,Delhi,Hyderabad,Economy,2024-03-05,3604,0,Cancelled
+P0183,47,Male,Air India,Bangalore,Chennai,Economy,2024-09-06,7140,0,Cancelled
+P0184,29,Female,Akasa Air,Bangalore,Kolkata,Economy,2024-03-24,4876,18,Cancelled
+P0185,20,Male,Indigo,Delhi,Chennai,Business,2024-03-01,5543,61,Cancelled
+P0186,52,Male,Air India,Chennai,Bangalore,Economy,2024-10-18,11534,0,Delayed
+P0187,37,Male,Vistara,Hyderabad,Bangalore,Economy,2024-08-09,9558,43,On Time
+P0188,39,Male,SpiceJet,Mumbai,Kolkata,Economy,2024-11-22,2568,0,Cancelled
+P0189,34,Male,Indigo,Delhi,Kolkata,Business,2024-06-22,4843,92,Cancelled
+P0190,36,Female,Akasa Air,Hyderabad,Chennai,Economy,2024-03-30,11896,21,Cancelled
+P0191,32,Male,Vistara,Bangalore,Mumbai,Business,2024-10-11,4287,0,Delayed
+P0192,68,Female,Indigo,Chennai,Kolkata,Business,2024-06-27,8534,81,Delayed
+P0193,25,Male,Vistara,Mumbai,Delhi,Business,2024-12-21,7014,129,Cancelled
+P0194,30,Female,Vistara,Bangalore,Chennai,Economy,2024-09-03,6747,76,Cancelled
+P0195,59,Male,SpiceJet,Bangalore,Mumbai,Economy,2024-02-21,11049,38,Delayed
+P0196,57,Male,SpiceJet,Mumbai,Hyderabad,Economy,2024-10-21,6749,169,Cancelled
+P0197,41,Female,Vistara,Delhi,Mumbai,Business,2024-02-20,4449,155,Delayed
+P0198,49,Female,Air India,Delhi,Bangalore,Economy,2024-03-31,6464,0,On Time
+P0199,67,Female,Air India,Kolkata,Chennai,Business,2024-10-29,9103,0,Cancelled
+P0200,51,Female,Akasa Air,Delhi,Hyderabad,Economy,2024-09-06,3880,0,Delayed
+P0201,53,Female,Akasa Air,Delhi,Hyderabad,Business,2024-02-14,2927,0,On Time
+P0202,55,Female,Akasa Air,Chennai,Delhi,Economy,2024-03-20,2932,0,On Time
+P0203,42,Female,Air India,Chennai,Bangalore,Business,2024-05-28,10751,0,Cancelled
+P0204,32,Male,Akasa Air,Hyderabad,Chennai,Business,2024-01-27,8075,0,On Time
+P0205,56,Female,SpiceJet,Chennai,Mumbai,Business,2024-09-23,2703,0,Cancelled
+P0206,21,Male,Vistara,Delhi,Kolkata,Business,2024-09-03,2763,63,Cancelled
+P0207,19,Male,Indigo,Chennai,Delhi,Business,2024-04-05,7138,154,On Time
+P0208,56,Female,Vistara,Chennai,Delhi,Economy,2024-12-14,2601,69,On Time
+P0209,37,Male,Akasa Air,Mumbai,Chennai,Business,2024-04-28,4666,0,Delayed
+P0210,56,Male,Akasa Air,Bangalore,Mumbai,Economy,2024-09-16,9400,107,Cancelled
+P0211,58,Male,Vistara,Hyderabad,Chennai,Economy,2024-08-04,8797,13,Delayed
+P0212,21,Female,Vistara,Mumbai,Kolkata,Business,2024-11-09,6102,0,On Time
+P0213,42,Female,Vistara,Bangalore,Delhi,Business,2024-12-07,3959,0,Cancelled
+P0214,56,Female,Akasa Air,Chennai,Delhi,Economy,2024-07-07,10368,85,Delayed
+P0215,39,Male,Akasa Air,Delhi,Chennai,Business,2024-06-19,9471,0,Delayed
+P0216,70,Female,Vistara,Delhi,Mumbai,Business,2024-10-24,8842,121,Cancelled
+P0217,44,Female,Akasa Air,Delhi,Bangalore,Economy,2024-06-28,5836,177,Cancelled
+P0218,19,Female,Akasa Air,Bangalore,Kolkata,Economy,2024-05-24,3952,79,On Time
+P0219,59,Male,Vistara,Hyderabad,Chennai,Business,2024-01-07,2559,0,Cancelled
+P0220,44,Male,Akasa Air,Delhi,Bangalore,Business,2024-03-21,3318,23,Cancelled
+P0221,22,Female,Air India,Kolkata,Delhi,Economy,2024-01-30,10692,0,On Time
+P0222,21,Female,Air India,Delhi,Mumbai,Economy,2024-12-22,9696,31,Cancelled
+P0223,55,Male,Indigo,Chennai,Bangalore,Business,2024-07-29,5043,0,Cancelled
+P0224,66,Female,Akasa Air,Hyderabad,Mumbai,Business,2024-11-07,10881,0,Cancelled
+P0225,23,Male,SpiceJet,Mumbai,Delhi,Economy,2024-06-29,3155,0,Cancelled
+P0226,70,Female,Indigo,Chennai,Delhi,Economy,2024-12-21,8448,0,Delayed
+P0227,57,Female,Indigo,Chennai,Hyderabad,Business,2024-06-10,5567,0,Delayed
+P0228,23,Male,Air India,Mumbai,Chennai,Business,2024-11-10,2655,121,On Time
+P0229,28,Male,SpiceJet,Chennai,Delhi,Business,2024-03-28,4294,0,Cancelled
+P0230,26,Female,SpiceJet,Mumbai,Kolkata,Business,2024-02-19,7265,157,On Time
+P0231,47,Female,SpiceJet,Kolkata,Delhi,Economy,2024-10-17,4646,0,Cancelled
+P0232,21,Female,Akasa Air,Bangalore,Mumbai,Business,2024-05-24,6583,0,Cancelled
+P0233,49,Female,Vistara,Bangalore,Kolkata,Economy,2024-12-07,8643,0,Delayed
+P0234,26,Male,Akasa Air,Chennai,Bangalore,Business,2024-01-10,8343,0,Delayed
+P0235,35,Female,Akasa Air,Kolkata,Bangalore,Economy,2024-01-31,8285,0,On Time
+P0236,45,Male,Air India,Chennai,Hyderabad,Economy,2024-10-21,5203,46,On Time
+P0237,22,Female,SpiceJet,Bangalore,Chennai,Economy,2024-11-07,6303,0,Cancelled
+P0238,21,Male,Akasa Air,Bangalore,Mumbai,Business,2024-10-01,5072,0,Cancelled
+P0239,70,Male,Akasa Air,Mumbai,Hyderabad,Economy,2024-05-15,4216,0,On Time
+P0240,62,Male,Vistara,Chennai,Kolkata,Business,2024-04-29,10923,0,Cancelled
+P0241,47,Female,Vistara,Hyderabad,Bangalore,Business,2024-05-18,5183,176,Delayed
+P0242,43,Female,SpiceJet,Kolkata,Delhi,Economy,2024-07-29,6368,84,On Time
+P0243,50,Female,SpiceJet,Bangalore,Delhi,Economy,2024-10-20,3181,168,On Time
+P0244,54,Male,Indigo,Hyderabad,Mumbai,Business,2024-05-28,5369,0,Delayed
+P0245,50,Male,Indigo,Kolkata,Chennai,Business,2024-09-18,8472,112,Cancelled
+P0246,36,Male,Air India,Kolkata,Hyderabad,Business,2024-06-22,11912,94,On Time
+P0247,69,Female,Indigo,Hyderabad,Mumbai,Economy,2024-12-19,9513,154,Delayed
+P0248,48,Female,Air India,Mumbai,Bangalore,Economy,2024-11-16,7178,0,On Time
+P0249,49,Female,Air India,Delhi,Mumbai,Business,2024-04-19,7921,0,On Time
+P0250,65,Female,Vistara,Delhi,Hyderabad,Business,2024-10-30,9039,0,Delayed
+P0251,27,Female,Vistara,Delhi,Bangalore,Business,2024-10-16,4083,0,On Time
+P0252,29,Female,Air India,Mumbai,Kolkata,Business,2024-09-23,5885,73,Cancelled
+P0253,19,Female,Indigo,Bangalore,Delhi,Economy,2024-07-22,9137,0,Cancelled
+P0254,20,Female,Akasa Air,Hyderabad,Chennai,Business,2024-12-12,4248,26,Delayed
+P0255,57,Female,SpiceJet,Chennai,Delhi,Economy,2024-11-13,3458,117,Cancelled
+P0256,47,Female,Vistara,Kolkata,Hyderabad,Business,2024-10-23,3679,0,Cancelled
+P0257,42,Male,Akasa Air,Mumbai,Bangalore,Economy,2024-10-11,8107,0,Cancelled
+P0258,43,Female,Vistara,Mumbai,Chennai,Business,2024-11-02,5643,21,Delayed
+P0259,56,Female,SpiceJet,Kolkata,Delhi,Business,2024-06-08,6620,68,On Time
+P0260,44,Male,Akasa Air,Hyderabad,Kolkata,Business,2024-01-09,8003,41,Cancelled
+P0261,68,Male,Akasa Air,Hyderabad,Chennai,Business,2024-10-01,6415,0,Cancelled
+P0262,32,Male,Vistara,Chennai,Delhi,Economy,2024-11-10,11199,26,Delayed
+P0263,57,Female,Vistara,Kolkata,Mumbai,Business,2024-01-10,9735,111,Delayed
+P0264,53,Female,Akasa Air,Kolkata,Mumbai,Business,2024-09-30,3394,0,Cancelled
+P0265,36,Female,Akasa Air,Bangalore,Hyderabad,Economy,2024-03-22,10659,0,Cancelled
+P0266,51,Male,SpiceJet,Mumbai,Delhi,Business,2024-03-02,3893,0,On Time
+P0267,19,Female,Akasa Air,Hyderabad,Mumbai,Economy,2024-11-27,6023,0,On Time
+P0268,70,Female,Vistara,Mumbai,Bangalore,Economy,2024-06-11,10684,0,On Time
+P0269,38,Female,Vistara,Kolkata,Mumbai,Business,2024-05-23,6364,0,Delayed
+P0270,38,Male,SpiceJet,Kolkata,Bangalore,Economy,2024-04-05,9730,149,Delayed
+P0271,18,Male,SpiceJet,Bangalore,Chennai,Business,2024-10-27,11771,0,Delayed
+P0272,64,Female,Vistara,Hyderabad,Delhi,Economy,2024-03-06,3662,0,Cancelled
+P0273,39,Male,SpiceJet,Hyderabad,Bangalore,Economy,2024-07-24,5518,0,On Time
+P0274,57,Female,Air India,Chennai,Delhi,Business,2024-03-29,4648,0,Cancelled
+P0275,29,Female,Indigo,Kolkata,Bangalore,Economy,2024-02-16,5511,153,Delayed
+P0276,32,Female,Indigo,Mumbai,Chennai,Business,2024-06-10,11401,0,Cancelled
+P0277,57,Male,Air India,Hyderabad,Delhi,Business,2024-07-25,6440,0,Cancelled
+P0278,52,Male,SpiceJet,Mumbai,Kolkata,Business,2024-07-30,10277,132,On Time
+P0279,18,Male,SpiceJet,Mumbai,Delhi,Business,2024-03-25,6347,126,On Time
+P0280,19,Male,Vistara,Kolkata,Hyderabad,Economy,2024-07-12,5728,174,Delayed
+P0281,65,Female,Air India,Chennai,Hyderabad,Economy,2024-01-17,9170,38,Cancelled
+P0282,65,Male,Indigo,Mumbai,Kolkata,Economy,2024-10-10,4512,0,Cancelled
+P0283,54,Female,SpiceJet,Mumbai,Chennai,Business,2024-09-15,10641,19,On Time
+P0284,34,Female,SpiceJet,Bangalore,Delhi,Economy,2024-05-16,10228,104,Cancelled
+P0285,44,Female,Akasa Air,Kolkata,Bangalore,Business,2024-05-02,4694,0,On Time
+P0286,59,Female,Vistara,Bangalore,Kolkata,Business,2024-02-14,7207,178,Cancelled
+P0287,24,Male,SpiceJet,Delhi,Mumbai,Business,2024-01-21,11825,0,On Time
+P0288,54,Male,Akasa Air,Delhi,Hyderabad,Business,2024-07-03,11636,108,Delayed
+P0289,37,Male,Indigo,Hyderabad,Chennai,Economy,2024-02-07,5569,0,On Time
+P0290,29,Male,Vistara,Mumbai,Chennai,Economy,2024-08-29,9594,77,On Time
+P0291,66,Male,Akasa Air,Mumbai,Kolkata,Business,2024-08-03,6074,135,Delayed
+P0292,28,Female,Akasa Air,Bangalore,Kolkata,Economy,2024-04-24,2645,67,Delayed
+P0293,62,Male,Indigo,Hyderabad,Kolkata,Business,2024-04-03,7373,0,On Time
+P0294,63,Male,Air India,Mumbai,Bangalore,Business,2024-08-25,10554,132,Cancelled
+P0295,28,Male,Indigo,Kolkata,Mumbai,Business,2024-03-02,7977,0,On Time
+P0296,52,Female,Akasa Air,Bangalore,Delhi,Business,2024-09-08,10014,59,On Time
+P0297,55,Female,Indigo,Mumbai,Hyderabad,Business,2024-05-12,3452,42,Cancelled
+P0298,60,Male,Akasa Air,Chennai,Mumbai,Business,2024-05-02,4900,163,Cancelled
+P0299,52,Female,Air India,Delhi,Hyderabad,Business,2024-05-07,7673,88,On Time
+P0300,62,Male,Indigo,Kolkata,Chennai,Economy,2024-10-06,3172,0,On Time
+P0301,49,Male,Air India,Delhi,Bangalore,Business,2024-03-11,8731,135,Cancelled
+P0302,27,Male,Air India,Bangalore,Chennai,Economy,2024-12-08,6786,0,Delayed
+P0303,23,Male,Vistara,Mumbai,Kolkata,Business,2024-09-18,4302,0,Cancelled
+P0304,61,Male,Air India,Chennai,Delhi,Economy,2024-05-24,8606,122,Cancelled
+P0305,58,Female,Indigo,Kolkata,Bangalore,Economy,2024-12-15,7601,0,On Time
+P0306,64,Female,Akasa Air,Bangalore,Chennai,Economy,2024-04-08,10336,78,Delayed
+P0307,47,Male,Vistara,Kolkata,Hyderabad,Economy,2024-01-21,6992,0,On Time
+P0308,26,Female,Akasa Air,Hyderabad,Kolkata,Economy,2024-10-30,6238,0,On Time
+P0309,29,Male,SpiceJet,Bangalore,Delhi,Economy,2024-05-20,3119,138,On Time
+P0310,43,Male,Vistara,Hyderabad,Bangalore,Economy,2024-11-03,2907,0,On Time
+P0311,69,Male,Indigo,Kolkata,Mumbai,Business,2024-03-22,10374,168,On Time
+P0312,25,Male,Air India,Bangalore,Delhi,Economy,2024-11-18,4560,0,Delayed
+P0313,55,Female,Air India,Chennai,Bangalore,Business,2024-11-02,6466,96,On Time
+P0314,22,Male,SpiceJet,Chennai,Bangalore,Economy,2024-06-15,5087,0,Cancelled
+P0315,33,Male,Vistara,Mumbai,Kolkata,Economy,2024-11-04,8305,0,Cancelled
+P0316,64,Male,Vistara,Bangalore,Kolkata,Business,2024-10-29,7929,104,Delayed
+P0317,29,Female,SpiceJet,Mumbai,Chennai,Business,2024-01-04,9387,0,Cancelled
+P0318,39,Male,Air India,Chennai,Mumbai,Economy,2024-12-27,4477,0,Delayed
+P0319,59,Female,Air India,Chennai,Bangalore,Business,2024-11-14,6973,146,Delayed
+P0320,57,Female,Indigo,Bangalore,Mumbai,Business,2024-01-26,11960,121,Cancelled
+P0321,37,Female,SpiceJet,Kolkata,Hyderabad,Economy,2024-10-11,3454,0,Cancelled
+P0322,33,Female,SpiceJet,Chennai,Kolkata,Business,2024-10-02,7649,78,Delayed
+P0323,27,Female,Air India,Kolkata,Mumbai,Business,2024-09-12,2893,101,Delayed
+P0324,19,Female,SpiceJet,Bangalore,Delhi,Business,2024-11-10,6225,17,Cancelled
+P0325,35,Female,Vistara,Mumbai,Chennai,Economy,2024-01-06,3737,113,Cancelled
+P0326,21,Male,Indigo,Chennai,Mumbai,Economy,2024-05-20,9920,25,On Time
+P0327,65,Female,Akasa Air,Delhi,Bangalore,Business,2024-03-14,6061,175,Cancelled
+P0328,32,Male,SpiceJet,Hyderabad,Bangalore,Business,2024-08-02,3729,0,Delayed
+P0329,33,Male,Air India,Kolkata,Chennai,Business,2024-08-20,9959,0,Delayed
+P0330,58,Female,Akasa Air,Kolkata,Hyderabad,Economy,2024-01-12,3934,0,On Time
+P0331,45,Male,Air India,Kolkata,Chennai,Business,2024-11-16,4970,0,Cancelled
+P0332,43,Female,SpiceJet,Bangalore,Hyderabad,Business,2024-05-08,4336,99,Delayed
+P0333,24,Female,Indigo,Kolkata,Bangalore,Business,2024-02-27,3516,0,Delayed
+P0334,55,Female,Akasa Air,Bangalore,Hyderabad,Economy,2024-01-03,8014,121,Delayed
+P0335,39,Female,Akasa Air,Kolkata,Bangalore,Business,2024-05-20,11809,0,On Time
+P0336,39,Female,Indigo,Bangalore,Kolkata,Economy,2024-02-07,8707,0,On Time
+P0337,31,Female,Akasa Air,Kolkata,Bangalore,Economy,2024-06-23,2982,110,On Time
+P0338,54,Female,Air India,Delhi,Chennai,Economy,2024-04-17,5041,0,On Time
+P0339,64,Female,Air India,Hyderabad,Delhi,Economy,2024-05-21,7092,162,Cancelled
+P0340,18,Female,Vistara,Bangalore,Kolkata,Business,2024-06-23,8500,0,Cancelled
+P0341,68,Female,Vistara,Chennai,Kolkata,Economy,2024-11-19,8043,0,On Time
+P0342,51,Female,Air India,Hyderabad,Mumbai,Economy,2024-09-30,2836,0,On Time
+P0343,59,Male,Indigo,Kolkata,Delhi,Economy,2024-07-09,4288,0,On Time
+P0344,53,Female,Vistara,Delhi,Mumbai,Economy,2024-11-24,9500,0,On Time
+P0345,25,Female,SpiceJet,Chennai,Delhi,Economy,2024-09-18,7408,0,Delayed
+P0346,32,Male,Akasa Air,Hyderabad,Delhi,Business,2024-04-29,5762,0,Delayed
+P0347,22,Female,Indigo,Delhi,Kolkata,Economy,2024-09-08,4090,58,Delayed
+P0348,27,Female,Indigo,Kolkata,Bangalore,Business,2024-11-25,6480,0,Delayed
+P0349,27,Female,Akasa Air,Kolkata,Chennai,Economy,2024-01-12,9710,14,Delayed
+P0350,45,Female,SpiceJet,Bangalore,Mumbai,Business,2024-05-06,2540,112,Cancelled
+P0351,20,Female,Indigo,Chennai,Hyderabad,Economy,2024-11-19,4964,0,On Time
+P0352,50,Male,SpiceJet,Bangalore,Chennai,Business,2024-01-05,2544,0,Delayed
+P0353,59,Male,Vistara,Kolkata,Hyderabad,Economy,2024-06-30,6847,129,Delayed
+P0354,25,Male,Indigo,Kolkata,Chennai,Business,2024-03-11,11318,50,Cancelled
+P0355,41,Female,Air India,Chennai,Hyderabad,Business,2024-01-21,11628,0,Cancelled
+P0356,37,Female,Vistara,Hyderabad,Mumbai,Business,2024-12-05,10785,0,Delayed
+P0357,20,Female,SpiceJet,Delhi,Chennai,Economy,2024-02-15,9914,150,On Time
+P0358,37,Male,Akasa Air,Hyderabad,Kolkata,Business,2024-10-09,9436,0,On Time
+P0359,70,Female,Vistara,Mumbai,Bangalore,Economy,2024-03-13,8999,0,Cancelled
+P0360,37,Male,Akasa Air,Bangalore,Chennai,Business,2024-07-29,9034,19,Cancelled
+P0361,33,Male,Vistara,Mumbai,Kolkata,Business,2024-02-03,8539,94,Cancelled
+P0362,70,Female,Air India,Mumbai,Hyderabad,Business,2024-05-29,4824,56,Cancelled
+P0363,34,Male,Indigo,Delhi,Chennai,Business,2024-02-19,8278,15,Delayed
+P0364,33,Male,SpiceJet,Kolkata,Bangalore,Business,2024-08-13,6680,0,Cancelled
+P0365,69,Male,SpiceJet,Hyderabad,Chennai,Economy,2024-07-02,7621,81,On Time
+P0366,18,Male,Indigo,Mumbai,Kolkata,Economy,2024-09-20,9405,172,Delayed
+P0367,25,Male,Vistara,Bangalore,Chennai,Economy,2024-10-01,3166,93,On Time
+P0368,43,Male,Indigo,Mumbai,Hyderabad,Economy,2024-08-24,5121,0,On Time
+P0369,66,Female,Akasa Air,Mumbai,Hyderabad,Economy,2024-10-04,6670,22,On Time
+P0370,39,Female,Indigo,Delhi,Kolkata,Economy,2024-10-29,4974,0,Cancelled
+P0371,54,Female,Indigo,Chennai,Bangalore,Economy,2024-04-07,11224,0,Cancelled
+P0372,46,Female,SpiceJet,Chennai,Hyderabad,Economy,2024-04-19,8032,0,Cancelled
+P0373,30,Female,Akasa Air,Bangalore,Hyderabad,Business,2024-03-14,10125,154,Delayed
+P0374,19,Female,SpiceJet,Kolkata,Mumbai,Business,2024-12-02,3828,117,Delayed
+P0375,64,Male,Indigo,Mumbai,Kolkata,Economy,2024-08-12,10144,71,Delayed
+P0376,63,Male,Air India,Mumbai,Delhi,Business,2024-09-26,5874,58,On Time
+P0377,63,Male,Indigo,Hyderabad,Bangalore,Business,2024-06-01,5443,0,Delayed
+P0378,61,Male,SpiceJet,Delhi,Bangalore,Business,2024-08-02,5895,0,On Time
+P0379,35,Male,Air India,Kolkata,Bangalore,Economy,2024-06-10,10336,87,On Time
+P0380,50,Female,Akasa Air,Hyderabad,Delhi,Economy,2024-08-06,8502,0,Delayed
+P0381,47,Female,Indigo,Hyderabad,Bangalore,Business,2024-07-14,5729,0,On Time
+P0382,59,Female,Vistara,Kolkata,Chennai,Economy,2024-02-23,3952,0,On Time
+P0383,45,Male,SpiceJet,Kolkata,Mumbai,Business,2024-10-02,6951,162,Delayed
+P0384,19,Male,Vistara,Bangalore,Delhi,Economy,2024-02-05,7689,0,Delayed
+P0385,24,Male,Akasa Air,Kolkata,Hyderabad,Economy,2024-01-23,10364,0,On Time
+P0386,53,Male,Akasa Air,Delhi,Bangalore,Economy,2024-03-01,3135,139,Delayed
+P0387,69,Female,SpiceJet,Bangalore,Mumbai,Economy,2024-07-31,11515,0,Cancelled
+P0388,70,Female,Air India,Mumbai,Hyderabad,Business,2024-05-22,6516,0,Cancelled
+P0389,64,Female,Indigo,Mumbai,Chennai,Economy,2024-04-17,5593,39,On Time
+P0390,23,Male,Akasa Air,Delhi,Kolkata,Economy,2024-08-29,11352,94,Cancelled
+P0391,60,Male,Akasa Air,Delhi,Bangalore,Economy,2024-08-26,10296,30,Delayed
+P0392,44,Male,Vistara,Kolkata,Chennai,Business,2024-04-27,3998,0,Cancelled
+P0393,64,Male,Indigo,Kolkata,Delhi,Business,2024-03-23,2933,0,Delayed
+P0394,19,Male,Akasa Air,Delhi,Hyderabad,Economy,2024-04-07,8336,125,Delayed
+P0395,41,Female,Vistara,Mumbai,Chennai,Economy,2024-04-22,5046,0,Delayed
+P0396,64,Male,Air India,Kolkata,Chennai,Economy,2024-07-20,3715,0,Cancelled
+P0397,58,Female,Indigo,Bangalore,Mumbai,Economy,2024-04-28,4369,0,Cancelled
+P0398,53,Female,Air India,Bangalore,Delhi,Economy,2024-03-07,10721,94,On Time
+P0399,19,Male,Vistara,Bangalore,Chennai,Business,2024-07-10,6303,0,Cancelled
+P0400,62,Male,Indigo,Chennai,Hyderabad,Economy,2024-09-07,2518,178,Cancelled
+P0401,20,Male,Vistara,Bangalore,Delhi,Business,2024-05-27,11048,0,On Time
+P0402,20,Female,Akasa Air,Mumbai,Chennai,Economy,2024-03-22,5469,110,Delayed
+P0403,56,Female,SpiceJet,Kolkata,Hyderabad,Economy,2024-11-12,2874,0,Cancelled
+P0404,20,Male,Air India,Delhi,Hyderabad,Economy,2024-09-09,5007,0,On Time
+P0405,18,Female,Vistara,Kolkata,Hyderabad,Economy,2024-09-27,5566,83,Cancelled
+P0406,58,Female,Akasa Air,Mumbai,Bangalore,Business,2024-06-13,9715,0,Delayed
+P0407,38,Male,Air India,Chennai,Bangalore,Economy,2024-11-23,10263,163,Cancelled
+P0408,48,Female,Vistara,Kolkata,Chennai,Business,2024-05-29,8773,0,Delayed
+P0409,36,Male,Akasa Air,Hyderabad,Bangalore,Economy,2024-05-18,8746,0,Delayed
+P0410,37,Male,Vistara,Chennai,Kolkata,Business,2024-07-30,6359,158,Delayed
+P0411,24,Male,Vistara,Chennai,Hyderabad,Business,2024-06-23,4286,81,Delayed
+P0412,64,Female,Akasa Air,Bangalore,Mumbai,Economy,2024-09-26,6185,23,Delayed
+P0413,41,Male,SpiceJet,Kolkata,Mumbai,Business,2024-09-01,9833,69,Cancelled
+P0414,34,Male,Air India,Kolkata,Mumbai,Economy,2024-09-24,4454,80,Delayed
+P0415,46,Female,Akasa Air,Hyderabad,Delhi,Economy,2024-06-16,4418,0,On Time
+P0416,61,Female,SpiceJet,Bangalore,Hyderabad,Economy,2024-07-16,4089,78,Delayed
+P0417,41,Male,Vistara,Hyderabad,Mumbai,Business,2024-01-30,2918,0,Cancelled
+P0418,51,Female,Air India,Delhi,Chennai,Business,2024-09-10,5001,112,Delayed
+P0419,64,Male,Indigo,Delhi,Hyderabad,Business,2024-02-25,8165,29,Cancelled
+P0420,59,Male,Akasa Air,Mumbai,Delhi,Economy,2024-05-26,8183,129,Cancelled
+P0421,42,Male,SpiceJet,Delhi,Bangalore,Economy,2024-09-29,5935,0,Delayed
+P0422,56,Male,Vistara,Delhi,Bangalore,Economy,2024-08-09,11101,0,On Time
+P0423,47,Female,Indigo,Delhi,Bangalore,Business,2024-08-04,10228,0,On Time
+P0424,26,Female,SpiceJet,Delhi,Bangalore,Business,2024-12-08,5766,157,On Time
+P0425,29,Male,Akasa Air,Mumbai,Delhi,Business,2024-12-26,9740,73,Cancelled
+P0426,38,Female,Air India,Mumbai,Bangalore,Business,2024-09-01,4270,0,Delayed
+P0427,35,Female,SpiceJet,Mumbai,Kolkata,Economy,2024-03-11,3416,142,Cancelled
+P0428,56,Male,Indigo,Delhi,Kolkata,Business,2024-11-20,11628,98,Delayed
+P0429,62,Female,Vistara,Bangalore,Kolkata,Business,2024-08-29,10298,117,Delayed
+P0430,18,Female,Vistara,Delhi,Chennai,Business,2024-03-23,10016,51,Delayed
+P0431,30,Female,SpiceJet,Chennai,Hyderabad,Business,2024-06-30,8988,0,Delayed
+P0432,19,Female,Indigo,Kolkata,Mumbai,Economy,2024-01-10,6599,0,Cancelled
+P0433,29,Male,Vistara,Hyderabad,Mumbai,Economy,2024-03-30,2591,167,Cancelled
+P0434,48,Male,SpiceJet,Delhi,Kolkata,Economy,2024-09-01,2567,176,Delayed
+P0435,45,Male,SpiceJet,Delhi,Chennai,Economy,2024-10-31,7360,0,Cancelled
+P0436,21,Male,SpiceJet,Hyderabad,Delhi,Economy,2024-01-11,6473,0,Cancelled
+P0437,24,Female,Vistara,Hyderabad,Kolkata,Business,2024-01-15,4051,0,Cancelled
+P0438,46,Female,Akasa Air,Delhi,Chennai,Economy,2024-02-04,6352,46,On Time
+P0439,26,Male,Indigo,Delhi,Chennai,Economy,2024-07-01,7628,0,Delayed
+P0440,64,Female,SpiceJet,Chennai,Mumbai,Economy,2024-10-14,5096,0,Delayed
+P0441,61,Male,Vistara,Kolkata,Mumbai,Economy,2024-01-19,10043,0,Delayed
+P0442,58,Female,Akasa Air,Delhi,Kolkata,Economy,2024-01-14,8361,0,Cancelled
+P0443,70,Male,Indigo,Bangalore,Hyderabad,Business,2024-02-04,4343,170,On Time
+P0444,54,Female,Vistara,Bangalore,Hyderabad,Economy,2024-12-08,2566,0,Delayed
+P0445,25,Female,Vistara,Bangalore,Mumbai,Business,2024-03-01,4712,0,On Time
+P0446,45,Female,SpiceJet,Bangalore,Kolkata,Business,2024-11-17,6858,112,On Time
+P0447,52,Female,Vistara,Mumbai,Delhi,Business,2024-08-06,6250,0,Delayed
+P0448,34,Male,Akasa Air,Kolkata,Bangalore,Economy,2024-01-20,8395,116,Delayed
+P0449,40,Female,Air India,Kolkata,Delhi,Economy,2024-06-25,8480,90,On Time
+P0450,27,Female,Vistara,Hyderabad,Chennai,Business,2024-06-24,6733,0,Cancelled
+P0451,29,Female,Akasa Air,Kolkata,Mumbai,Business,2024-04-05,9078,115,Cancelled
+P0452,32,Female,Vistara,Bangalore,Hyderabad,Economy,2024-01-06,8665,0,Delayed
+P0453,47,Female,SpiceJet,Delhi,Chennai,Economy,2024-01-13,11057,79,Delayed
+P0454,22,Male,SpiceJet,Kolkata,Hyderabad,Business,2024-10-25,7653,0,Cancelled
+P0455,25,Male,Akasa Air,Mumbai,Chennai,Economy,2024-02-23,11082,14,On Time
+P0456,20,Male,SpiceJet,Mumbai,Kolkata,Business,2024-05-29,8607,133,Cancelled
+P0457,60,Male,Indigo,Hyderabad,Chennai,Business,2024-04-15,10039,177,Delayed
+P0458,47,Male,Indigo,Kolkata,Delhi,Business,2024-05-15,8728,0,On Time
+P0459,39,Female,Indigo,Mumbai,Delhi,Economy,2024-04-23,7020,63,Delayed
+P0460,43,Female,Vistara,Mumbai,Delhi,Business,2024-01-07,8132,0,Delayed
+P0461,46,Male,SpiceJet,Bangalore,Mumbai,Economy,2024-09-27,11667,0,On Time
+P0462,27,Female,Vistara,Chennai,Mumbai,Business,2024-02-04,7984,151,On Time
+P0463,30,Female,SpiceJet,Kolkata,Chennai,Business,2024-06-06,7648,98,On Time
+P0464,30,Male,Akasa Air,Chennai,Mumbai,Business,2024-10-01,10652,144,On Time
+P0465,27,Female,SpiceJet,Mumbai,Kolkata,Economy,2024-11-13,4235,101,Cancelled
+P0466,44,Female,Vistara,Hyderabad,Delhi,Business,2024-12-08,5394,0,Delayed
+P0467,41,Female,Vistara,Bangalore,Delhi,Business,2024-03-24,11155,79,Delayed
+P0468,38,Male,Vistara,Kolkata,Delhi,Economy,2024-07-20,6455,0,Delayed
+P0469,36,Female,Akasa Air,Delhi,Mumbai,Economy,2024-01-19,5120,50,Cancelled
+P0470,50,Male,Vistara,Chennai,Kolkata,Economy,2024-12-17,11230,177,On Time
+P0471,34,Male,SpiceJet,Hyderabad,Delhi,Business,2024-03-15,7956,108,Cancelled
+P0472,51,Female,Vistara,Hyderabad,Kolkata,Economy,2024-02-23,8945,45,Delayed
+P0473,46,Female,Air India,Hyderabad,Chennai,Business,2024-07-19,10862,58,Cancelled
+P0474,27,Female,Air India,Delhi,Bangalore,Economy,2024-12-19,7488,0,Delayed
+P0475,30,Female,Indigo,Kolkata,Hyderabad,Economy,2024-12-27,4933,122,Delayed
+P0476,29,Female,SpiceJet,Bangalore,Chennai,Business,2024-11-13,7026,168,On Time
+P0477,62,Female,Air India,Kolkata,Delhi,Business,2024-06-29,10040,0,On Time
+P0478,20,Male,SpiceJet,Mumbai,Bangalore,Business,2024-11-08,10997,0,Delayed
+P0479,54,Female,Indigo,Hyderabad,Kolkata,Economy,2024-01-01,6229,0,Cancelled
+P0480,66,Female,Vistara,Bangalore,Hyderabad,Business,2024-05-27,5963,52,Delayed
+P0481,30,Male,Air India,Delhi,Bangalore,Economy,2024-12-16,11459,100,Delayed
+P0482,28,Female,Vistara,Chennai,Mumbai,Business,2024-04-28,5731,135,On Time
+P0483,54,Male,Indigo,Mumbai,Chennai,Economy,2024-06-21,2980,0,Cancelled
+P0484,26,Female,SpiceJet,Hyderabad,Mumbai,Economy,2024-05-07,3259,149,On Time
+P0485,48,Female,Indigo,Kolkata,Delhi,Economy,2024-05-24,7317,85,Delayed
+P0486,54,Male,Vistara,Chennai,Delhi,Economy,2024-07-11,9706,0,Cancelled
+P0487,18,Female,Air India,Kolkata,Delhi,Business,2024-09-29,7256,0,On Time
+P0488,33,Male,SpiceJet,Mumbai,Hyderabad,Economy,2024-05-29,11739,80,On Time
+P0489,20,Male,Akasa Air,Kolkata,Hyderabad,Business,2024-06-16,3605,0,On Time
+P0490,59,Female,Vistara,Hyderabad,Mumbai,Business,2024-09-21,3226,0,On Time
+P0491,65,Male,Air India,Kolkata,Delhi,Business,2024-09-10,8096,0,On Time
+P0492,62,Female,Akasa Air,Chennai,Hyderabad,Business,2024-04-29,2759,21,Cancelled
+P0493,29,Male,Vistara,Chennai,Kolkata,Economy,2024-01-25,3024,0,On Time
+P0494,47,Male,SpiceJet,Delhi,Chennai,Economy,2024-09-03,5038,19,On Time
+P0495,49,Male,Indigo,Hyderabad,Kolkata,Economy,2024-09-03,9335,98,Delayed
+P0496,67,Female,SpiceJet,Mumbai,Delhi,Economy,2024-01-15,10392,0,Delayed
+P0497,45,Female,Air India,Kolkata,Bangalore,Economy,2024-12-24,2612,110,Delayed
+P0498,67,Female,SpiceJet,Bangalore,Delhi,Economy,2024-02-05,8120,0,Delayed
+P0499,68,Male,Akasa Air,Bangalore,Chennai,Economy,2024-08-24,6008,0,Cancelled
+P0500,28,Male,Akasa Air,Hyderabad,Mumbai,Business,2024-12-16,11781,80,Delayed
+P0501,42,Female,Air India,Mumbai,Delhi,Economy,2024-12-23,9235,0,On Time
+P0502,50,Female,Akasa Air,Delhi,Kolkata,Business,2024-01-03,5306,0,Delayed
+P0503,50,Male,Air India,Bangalore,Chennai,Business,2024-07-10,7785,62,On Time
+P0504,66,Female,Air India,Hyderabad,Delhi,Economy,2024-05-17,6653,0,Delayed
+P0505,66,Female,Air India,Hyderabad,Bangalore,Business,2024-02-18,9237,0,Cancelled
+P0506,52,Female,Indigo,Delhi,Bangalore,Business,2024-10-18,3254,33,Cancelled
+P0507,50,Female,SpiceJet,Chennai,Kolkata,Business,2024-01-25,3593,0,Delayed
+P0508,47,Male,Air India,Mumbai,Hyderabad,Economy,2024-10-12,3065,26,Delayed
+P0509,30,Male,SpiceJet,Delhi,Bangalore,Business,2024-03-08,8460,0,On Time
+P0510,38,Female,Air India,Hyderabad,Kolkata,Economy,2024-04-22,7095,0,Cancelled
+P0511,32,Female,SpiceJet,Mumbai,Bangalore,Business,2024-01-31,7393,0,Delayed
+P0512,69,Female,Indigo,Mumbai,Chennai,Business,2024-10-21,10004,0,On Time
+P0513,43,Female,Air India,Mumbai,Bangalore,Business,2024-09-29,10689,0,Delayed
+P0514,46,Male,SpiceJet,Mumbai,Hyderabad,Business,2024-08-26,7692,104,On Time
+P0515,55,Female,Air India,Mumbai,Delhi,Economy,2024-05-04,7717,21,Cancelled
+P0516,39,Male,Air India,Delhi,Hyderabad,Business,2024-04-27,7000,139,On Time
+P0517,27,Female,SpiceJet,Bangalore,Chennai,Business,2024-09-09,6375,0,Delayed
+P0518,42,Male,Akasa Air,Mumbai,Kolkata,Business,2024-03-16,11945,70,Delayed
+P0519,67,Female,SpiceJet,Delhi,Mumbai,Business,2024-10-16,6365,72,On Time
+P0520,43,Male,Vistara,Delhi,Bangalore,Business,2024-08-07,2613,0,On Time
+P0521,23,Male,Akasa Air,Hyderabad,Bangalore,Business,2024-08-31,6143,146,Delayed
+P0522,41,Male,Indigo,Delhi,Bangalore,Economy,2024-03-05,7196,76,On Time
+P0523,57,Female,Akasa Air,Chennai,Kolkata,Economy,2024-06-06,11548,31,Delayed
+P0524,59,Male,Vistara,Chennai,Mumbai,Business,2024-02-14,4846,50,Delayed
+P0525,69,Female,Indigo,Chennai,Bangalore,Business,2024-11-16,6304,94,Cancelled
+P0526,51,Female,SpiceJet,Delhi,Hyderabad,Business,2024-08-21,9744,0,Delayed
+P0527,21,Male,Akasa Air,Chennai,Kolkata,Economy,2024-07-05,3017,0,Delayed
+P0528,39,Male,Air India,Hyderabad,Mumbai,Economy,2024-07-27,3501,0,Cancelled
+P0529,62,Male,Air India,Bangalore,Delhi,Economy,2024-01-30,3777,0,Cancelled
+P0530,18,Male,Vistara,Chennai,Bangalore,Economy,2024-01-19,10109,0,Delayed
+P0531,66,Male,Indigo,Mumbai,Hyderabad,Business,2024-05-25,8093,0,On Time
+P0532,61,Female,SpiceJet,Kolkata,Hyderabad,Economy,2024-04-24,9018,0,Cancelled
+P0533,29,Male,SpiceJet,Kolkata,Bangalore,Economy,2024-01-02,9081,110,Cancelled
+P0534,27,Male,Air India,Mumbai,Hyderabad,Business,2024-07-21,3144,148,Cancelled
+P0535,45,Female,Vistara,Kolkata,Delhi,Economy,2024-12-14,6924,153,Cancelled
+P0536,52,Female,Indigo,Delhi,Bangalore,Business,2024-05-10,9010,0,Cancelled
+P0537,18,Female,SpiceJet,Mumbai,Bangalore,Business,2024-12-04,4390,0,Cancelled
+P0538,51,Female,Vistara,Delhi,Kolkata,Business,2024-03-15,8059,96,Delayed
+P0539,20,Female,Air India,Bangalore,Chennai,Economy,2024-08-06,5766,43,Cancelled
+P0540,52,Male,Indigo,Bangalore,Mumbai,Business,2024-06-25,4355,13,Cancelled
+P0541,55,Male,Air India,Kolkata,Hyderabad,Economy,2024-02-22,9238,0,Cancelled
+P0542,43,Male,Air India,Bangalore,Kolkata,Economy,2024-11-06,3988,0,On Time
+P0543,39,Male,Indigo,Bangalore,Chennai,Business,2024-06-26,6353,97,On Time
+P0544,42,Male,Indigo,Kolkata,Chennai,Business,2024-10-02,7784,0,Delayed
+P0545,49,Male,SpiceJet,Hyderabad,Kolkata,Business,2024-07-24,6770,110,On Time
+P0546,32,Female,Indigo,Mumbai,Chennai,Economy,2024-10-15,3744,0,On Time
+P0547,18,Male,Indigo,Bangalore,Kolkata,Business,2024-12-17,4524,107,Cancelled
+P0548,70,Male,Vistara,Hyderabad,Delhi,Business,2024-07-07,11887,72,Cancelled
+P0549,55,Female,Vistara,Chennai,Kolkata,Economy,2024-03-08,10108,39,Delayed
+P0550,41,Male,Air India,Chennai,Hyderabad,Business,2024-10-27,5086,0,On Time
+P0551,29,Female,Indigo,Mumbai,Hyderabad,Economy,2024-07-10,11710,0,Delayed
+P0552,62,Male,Air India,Chennai,Hyderabad,Business,2024-07-11,10004,0,Delayed
+P0553,31,Male,Air India,Delhi,Hyderabad,Business,2024-07-18,11524,11,Delayed
+P0554,61,Female,SpiceJet,Hyderabad,Bangalore,Business,2024-04-12,8002,78,On Time
+P0555,63,Female,Indigo,Hyderabad,Mumbai,Business,2024-09-03,9868,85,Cancelled
+P0556,29,Male,Indigo,Bangalore,Hyderabad,Business,2024-12-10,8376,175,Cancelled
+P0557,28,Male,Akasa Air,Mumbai,Chennai,Economy,2024-02-05,3665,0,On Time
+P0558,58,Female,Vistara,Mumbai,Kolkata,Business,2024-04-29,8164,21,Delayed
+P0559,63,Female,Air India,Chennai,Delhi,Economy,2024-10-16,8741,0,Cancelled
+P0560,36,Female,Akasa Air,Chennai,Delhi,Business,2024-10-28,5114,0,Delayed
+P0561,67,Male,Akasa Air,Hyderabad,Delhi,Business,2024-07-09,7675,56,Cancelled
+P0562,31,Female,Vistara,Hyderabad,Chennai,Business,2024-06-10,2522,145,On Time
+P0563,59,Male,Air India,Mumbai,Bangalore,Economy,2024-02-28,6267,17,Cancelled
+P0564,49,Female,SpiceJet,Bangalore,Kolkata,Economy,2024-10-07,8433,0,On Time
+P0565,54,Male,SpiceJet,Hyderabad,Bangalore,Economy,2024-12-07,11883,0,On Time
+P0566,70,Male,SpiceJet,Chennai,Kolkata,Economy,2024-05-15,6539,0,Delayed
+P0567,38,Female,Akasa Air,Delhi,Kolkata,Business,2024-08-29,9001,121,Cancelled
+P0568,35,Male,Air India,Hyderabad,Mumbai,Business,2024-11-13,3642,156,Delayed
+P0569,35,Male,Air India,Bangalore,Chennai,Economy,2024-08-16,4453,75,Delayed
+P0570,64,Female,SpiceJet,Chennai,Mumbai,Business,2024-03-23,6794,0,Cancelled
+P0571,53,Male,Vistara,Mumbai,Chennai,Business,2024-03-06,4645,68,Delayed
+P0572,50,Male,SpiceJet,Delhi,Mumbai,Business,2024-06-24,3743,0,Cancelled
+P0573,47,Male,Indigo,Chennai,Mumbai,Economy,2024-10-25,3908,0,Delayed
+P0574,39,Female,Indigo,Mumbai,Kolkata,Economy,2024-03-09,10032,0,Cancelled
+P0575,33,Female,Vistara,Hyderabad,Bangalore,Business,2024-08-04,6672,32,On Time
+P0576,64,Male,Akasa Air,Delhi,Chennai,Economy,2024-08-19,11592,0,On Time
+P0577,32,Male,Vistara,Hyderabad,Mumbai,Business,2024-03-02,7899,147,On Time
+P0578,42,Male,SpiceJet,Chennai,Mumbai,Economy,2024-02-29,9430,143,Cancelled
+P0579,29,Male,Akasa Air,Mumbai,Kolkata,Economy,2024-01-04,4287,0,Cancelled
+P0580,50,Male,Vistara,Kolkata,Chennai,Economy,2024-11-23,5363,113,On Time
+P0581,27,Female,Vistara,Bangalore,Kolkata,Business,2024-12-01,2831,66,Delayed
+P0582,20,Male,Air India,Hyderabad,Chennai,Business,2024-01-21,7208,142,Delayed
+P0583,24,Female,Vistara,Hyderabad,Mumbai,Business,2024-06-12,4446,127,Delayed
+P0584,50,Female,Akasa Air,Kolkata,Chennai,Business,2024-02-29,8755,38,On Time
+P0585,42,Female,Air India,Bangalore,Delhi,Business,2024-11-20,5804,0,Delayed
+P0586,70,Female,Indigo,Bangalore,Hyderabad,Economy,2024-06-15,9160,138,On Time
+P0587,26,Male,Akasa Air,Mumbai,Chennai,Economy,2024-10-24,5934,0,Cancelled
+P0588,52,Male,Air India,Bangalore,Hyderabad,Business,2024-11-17,7672,125,Delayed
+P0589,45,Male,Indigo,Hyderabad,Bangalore,Economy,2024-08-12,3836,153,On Time
+P0590,62,Male,SpiceJet,Mumbai,Kolkata,Economy,2024-04-26,11704,143,Delayed
+P0591,18,Male,Vistara,Chennai,Delhi,Economy,2024-04-06,11896,113,Cancelled
+P0592,62,Female,Vistara,Kolkata,Hyderabad,Economy,2024-05-10,8824,153,On Time
+P0593,23,Male,Indigo,Mumbai,Hyderabad,Economy,2024-02-08,10281,75,Cancelled
+P0594,67,Male,Air India,Mumbai,Hyderabad,Business,2024-04-22,6762,0,Delayed
+P0595,66,Female,Akasa Air,Kolkata,Hyderabad,Economy,2024-10-21,9833,0,On Time
+P0596,29,Female,Indigo,Delhi,Mumbai,Economy,2024-11-06,6377,28,Delayed
+P0597,47,Male,Indigo,Hyderabad,Delhi,Economy,2024-09-10,7261,149,On Time
+P0598,48,Male,SpiceJet,Kolkata,Bangalore,Business,2024-10-15,7800,0,Delayed
+P0599,40,Male,Indigo,Bangalore,Hyderabad,Economy,2024-02-22,5413,0,Cancelled
+P0600,70,Male,Indigo,Delhi,Mumbai,Economy,2024-07-21,7289,0,Cancelled
+P0601,64,Female,Air India,Kolkata,Chennai,Business,2024-03-22,4628,70,Cancelled
+P0602,26,Male,Air India,Kolkata,Delhi,Business,2024-07-22,3227,0,Delayed
+P0603,42,Male,Vistara,Bangalore,Delhi,Business,2024-12-09,9840,0,Cancelled
+P0604,64,Male,Akasa Air,Delhi,Mumbai,Business,2024-11-17,2622,127,Cancelled
+P0605,54,Female,Vistara,Chennai,Delhi,Business,2024-05-01,6176,0,On Time
+P0606,46,Female,Air India,Mumbai,Chennai,Economy,2024-06-13,10910,0,On Time
+P0607,19,Male,Air India,Delhi,Hyderabad,Business,2024-10-05,6259,108,Cancelled
+P0608,47,Female,Akasa Air,Bangalore,Kolkata,Economy,2024-03-10,11298,156,Cancelled
+P0609,47,Female,Indigo,Chennai,Delhi,Economy,2024-06-28,10794,93,On Time
+P0610,48,Male,Akasa Air,Hyderabad,Chennai,Economy,2024-03-29,5922,90,Cancelled
+P0611,46,Female,Indigo,Delhi,Bangalore,Business,2024-12-17,11560,158,Cancelled
+P0612,35,Female,Air India,Delhi,Mumbai,Economy,2024-08-15,10302,0,Delayed
+P0613,19,Male,Vistara,Kolkata,Bangalore,Economy,2024-11-20,7313,90,On Time
+P0614,59,Male,Akasa Air,Mumbai,Kolkata,Business,2024-01-28,6205,18,Cancelled
+P0615,21,Female,SpiceJet,Kolkata,Delhi,Economy,2024-09-05,8137,0,Delayed
+P0616,63,Male,Akasa Air,Delhi,Chennai,Economy,2024-05-23,5047,173,Cancelled
+P0617,36,Female,Indigo,Chennai,Delhi,Business,2024-02-05,9526,0,On Time
+P0618,41,Female,SpiceJet,Bangalore,Chennai,Business,2024-03-26,3972,0,On Time
+P0619,69,Female,Indigo,Mumbai,Hyderabad,Business,2024-12-22,11242,0,Delayed
+P0620,50,Female,Vistara,Hyderabad,Delhi,Business,2024-11-10,7062,64,Cancelled
+P0621,19,Male,Indigo,Hyderabad,Bangalore,Economy,2024-11-05,3387,0,Delayed
+P0622,53,Female,Vistara,Mumbai,Kolkata,Economy,2024-04-24,10640,0,Delayed
+P0623,26,Female,SpiceJet,Mumbai,Kolkata,Business,2024-09-11,6436,0,Delayed
+P0624,34,Male,Akasa Air,Kolkata,Delhi,Business,2024-09-06,11414,74,Cancelled
+P0625,23,Female,SpiceJet,Kolkata,Delhi,Economy,2024-06-08,3895,51,Delayed
+P0626,41,Female,SpiceJet,Kolkata,Mumbai,Business,2024-10-08,3360,0,Cancelled
+P0627,47,Female,SpiceJet,Mumbai,Bangalore,Economy,2024-08-27,11173,0,Delayed
+P0628,43,Female,SpiceJet,Hyderabad,Delhi,Economy,2024-08-06,11191,0,Cancelled
+P0629,35,Female,Akasa Air,Hyderabad,Mumbai,Economy,2024-05-30,8193,38,Delayed
+P0630,50,Male,Vistara,Mumbai,Delhi,Economy,2024-02-19,11762,0,Cancelled
+P0631,25,Female,Air India,Mumbai,Chennai,Business,2024-07-19,4175,0,Cancelled
+P0632,35,Male,Air India,Delhi,Mumbai,Economy,2024-04-12,11130,52,Cancelled
+P0633,47,Female,Indigo,Bangalore,Mumbai,Business,2024-08-27,3321,104,Delayed
+P0634,68,Female,Vistara,Bangalore,Chennai,Business,2024-12-17,4946,48,Delayed
+P0635,38,Female,Akasa Air,Kolkata,Delhi,Economy,2024-03-15,5215,0,Cancelled
+P0636,63,Male,SpiceJet,Bangalore,Kolkata,Business,2024-04-14,9232,126,On Time
+P0637,39,Male,Akasa Air,Delhi,Bangalore,Economy,2024-05-13,2877,0,Cancelled
+P0638,38,Female,Akasa Air,Delhi,Bangalore,Business,2024-07-04,10973,166,Delayed
+P0639,60,Male,Indigo,Kolkata,Bangalore,Business,2024-01-09,7886,104,On Time
+P0640,59,Male,Akasa Air,Hyderabad,Bangalore,Business,2024-01-18,10127,46,Delayed
+P0641,26,Male,SpiceJet,Bangalore,Chennai,Business,2024-12-28,8586,0,Cancelled
+P0642,52,Female,Vistara,Bangalore,Kolkata,Economy,2024-10-25,3534,0,Delayed
+P0643,43,Female,Indigo,Delhi,Kolkata,Economy,2024-02-29,8210,113,Cancelled
+P0644,55,Male,SpiceJet,Delhi,Kolkata,Economy,2024-05-06,2852,84,Cancelled
+P0645,20,Male,Air India,Delhi,Bangalore,Business,2024-12-05,7797,135,Cancelled
+P0646,22,Female,Indigo,Bangalore,Kolkata,Business,2024-04-01,3113,0,Cancelled
+P0647,38,Male,Vistara,Delhi,Chennai,Economy,2024-08-29,10784,0,Delayed
+P0648,56,Female,SpiceJet,Hyderabad,Bangalore,Business,2024-03-17,10861,36,Cancelled
+P0649,42,Female,Akasa Air,Kolkata,Mumbai,Business,2024-08-18,11218,172,Delayed
+P0650,28,Male,Indigo,Hyderabad,Delhi,Business,2024-01-07,3289,0,Delayed
+P0651,41,Male,Indigo,Kolkata,Delhi,Economy,2024-11-07,2652,0,Cancelled
+P0652,27,Male,Air India,Chennai,Bangalore,Economy,2024-09-25,7277,0,On Time
+P0653,42,Male,Vistara,Delhi,Hyderabad,Business,2024-05-21,7236,0,On Time
+P0654,57,Male,Akasa Air,Chennai,Hyderabad,Business,2024-09-25,4823,0,Delayed
+P0655,57,Male,Indigo,Kolkata,Mumbai,Economy,2024-08-18,8337,77,Cancelled
+P0656,49,Male,Indigo,Mumbai,Hyderabad,Economy,2024-01-04,3255,132,On Time
+P0657,33,Female,Indigo,Hyderabad,Bangalore,Economy,2024-09-13,11487,0,On Time
+P0658,60,Female,Air India,Mumbai,Delhi,Economy,2024-11-06,9878,65,Delayed
+P0659,69,Female,SpiceJet,Kolkata,Delhi,Economy,2024-11-16,11763,0,On Time
+P0660,40,Female,Air India,Delhi,Hyderabad,Business,2024-10-11,2965,144,On Time
+P0661,45,Male,Vistara,Hyderabad,Chennai,Business,2024-07-18,9079,178,On Time
+P0662,25,Male,Akasa Air,Kolkata,Hyderabad,Business,2024-09-24,6349,0,Cancelled
+P0663,43,Male,SpiceJet,Delhi,Chennai,Business,2024-02-18,10408,148,Delayed
+P0664,58,Female,Indigo,Delhi,Mumbai,Business,2024-01-10,7551,168,Cancelled
+P0665,32,Female,Vistara,Delhi,Kolkata,Economy,2024-09-18,6939,106,Delayed
+P0666,20,Male,Vistara,Chennai,Mumbai,Business,2024-02-07,3005,0,Cancelled
+P0667,25,Female,SpiceJet,Kolkata,Bangalore,Economy,2024-05-23,5173,0,Delayed
+P0668,53,Male,SpiceJet,Kolkata,Chennai,Economy,2024-10-10,11758,0,Cancelled
+P0669,67,Female,Air India,Bangalore,Hyderabad,Business,2024-10-23,5007,155,Cancelled
+P0670,51,Female,Akasa Air,Delhi,Bangalore,Business,2024-04-10,4779,0,Delayed
+P0671,43,Male,Vistara,Bangalore,Mumbai,Business,2024-02-14,11107,0,Cancelled
+P0672,45,Female,SpiceJet,Mumbai,Bangalore,Business,2024-11-17,11243,177,Delayed
+P0673,24,Female,Vistara,Chennai,Kolkata,Business,2024-07-04,4153,83,Cancelled
+P0674,24,Male,Akasa Air,Chennai,Hyderabad,Business,2024-03-08,7060,107,On Time
+P0675,52,Female,Vistara,Mumbai,Chennai,Business,2024-09-18,3787,0,Delayed
+P0676,37,Male,Akasa Air,Mumbai,Chennai,Economy,2024-09-19,10982,0,On Time
+P0677,57,Female,Air India,Hyderabad,Kolkata,Business,2024-04-07,10626,57,On Time
+P0678,66,Male,Akasa Air,Bangalore,Hyderabad,Economy,2024-08-08,8701,62,Delayed
+P0679,43,Male,Indigo,Delhi,Chennai,Economy,2024-05-27,6214,0,On Time
+P0680,46,Female,Akasa Air,Bangalore,Hyderabad,Economy,2024-02-16,9229,63,Cancelled
+P0681,20,Female,SpiceJet,Chennai,Mumbai,Economy,2024-03-13,7446,0,On Time
+P0682,28,Female,Akasa Air,Hyderabad,Mumbai,Economy,2024-06-01,6608,114,Cancelled
+P0683,31,Male,Indigo,Kolkata,Hyderabad,Economy,2024-02-06,8141,0,On Time
+P0684,36,Male,Air India,Chennai,Hyderabad,Economy,2024-06-21,10301,32,Delayed
+P0685,67,Male,SpiceJet,Hyderabad,Delhi,Business,2024-10-22,5563,0,Delayed
+P0686,40,Male,SpiceJet,Delhi,Bangalore,Business,2024-03-24,9765,70,Delayed
+P0687,38,Female,Air India,Mumbai,Bangalore,Business,2024-12-16,6532,0,Cancelled
+P0688,29,Male,Indigo,Mumbai,Bangalore,Business,2024-02-02,11800,150,On Time
+P0689,32,Male,Vistara,Mumbai,Chennai,Business,2024-03-10,5056,0,Cancelled
+P0690,22,Male,Vistara,Kolkata,Hyderabad,Economy,2024-09-08,5543,0,Delayed
+P0691,39,Male,Air India,Bangalore,Kolkata,Economy,2024-10-25,6933,117,Delayed
+P0692,30,Male,Akasa Air,Delhi,Hyderabad,Business,2024-08-20,7797,135,Delayed
+P0693,68,Male,SpiceJet,Kolkata,Mumbai,Economy,2024-07-24,5792,0,Delayed
+P0694,51,Male,SpiceJet,Kolkata,Chennai,Economy,2024-01-05,9887,0,Cancelled
+P0695,29,Female,SpiceJet,Chennai,Hyderabad,Business,2024-04-26,10937,93,On Time
+P0696,45,Female,Air India,Hyderabad,Kolkata,Economy,2024-11-07,5715,133,Delayed
+P0697,69,Male,SpiceJet,Bangalore,Delhi,Economy,2024-01-11,8562,0,Cancelled
+P0698,29,Female,Air India,Bangalore,Kolkata,Business,2024-12-08,4720,174,Cancelled
+P0699,54,Female,Akasa Air,Mumbai,Delhi,Business,2024-03-26,7942,0,Delayed
+P0700,19,Female,Air India,Bangalore,Delhi,Business,2024-08-06,8541,0,Cancelled
+P0701,30,Female,Air India,Hyderabad,Mumbai,Business,2024-10-14,3625,180,Delayed
+P0702,47,Female,Akasa Air,Hyderabad,Chennai,Economy,2024-03-08,6604,0,Delayed
+P0703,56,Female,Akasa Air,Chennai,Hyderabad,Business,2024-04-22,8581,0,On Time
+P0704,18,Male,SpiceJet,Bangalore,Chennai,Economy,2024-10-19,6575,0,Cancelled
+P0705,40,Female,SpiceJet,Hyderabad,Delhi,Economy,2024-08-07,9525,0,Cancelled
+P0706,49,Male,Indigo,Kolkata,Delhi,Business,2024-06-20,6865,49,Cancelled
+P0707,47,Male,SpiceJet,Mumbai,Hyderabad,Business,2024-11-04,8194,145,Cancelled
+P0708,56,Female,Akasa Air,Chennai,Delhi,Business,2024-05-28,4495,0,On Time
+P0709,53,Male,SpiceJet,Bangalore,Kolkata,Economy,2024-02-07,8854,0,Delayed
+P0710,43,Male,Indigo,Mumbai,Chennai,Business,2024-12-04,5599,0,On Time
+P0711,42,Male,Air India,Delhi,Mumbai,Business,2024-02-13,10988,0,Delayed
+P0712,31,Female,Air India,Bangalore,Delhi,Business,2024-09-25,2898,0,Delayed
+P0713,58,Female,Air India,Delhi,Kolkata,Business,2024-05-04,3738,0,Delayed
+P0714,34,Female,Indigo,Delhi,Mumbai,Economy,2024-01-19,7957,178,Cancelled
+P0715,64,Male,Indigo,Kolkata,Hyderabad,Business,2024-01-11,2552,45,Cancelled
+P0716,22,Male,Vistara,Delhi,Kolkata,Economy,2024-11-28,5260,94,Cancelled
+P0717,24,Male,Air India,Mumbai,Chennai,Economy,2024-12-21,6577,150,Cancelled
+P0718,19,Female,Vistara,Delhi,Mumbai,Business,2024-02-05,6149,86,Cancelled
+P0719,24,Male,SpiceJet,Bangalore,Kolkata,Business,2024-06-06,11691,0,On Time
+P0720,62,Male,SpiceJet,Mumbai,Hyderabad,Business,2024-04-21,7216,10,On Time
+P0721,61,Male,Indigo,Chennai,Kolkata,Economy,2024-02-15,4413,0,Cancelled
+P0722,32,Female,Vistara,Delhi,Mumbai,Economy,2024-03-06,10486,0,Delayed
+P0723,22,Female,Vistara,Chennai,Bangalore,Business,2024-06-07,9155,0,Cancelled
+P0724,20,Male,Vistara,Kolkata,Delhi,Economy,2024-05-09,11371,122,On Time
+P0725,49,Female,Indigo,Kolkata,Hyderabad,Business,2024-06-24,8533,0,Cancelled
+P0726,43,Female,Vistara,Chennai,Mumbai,Business,2024-10-31,9652,0,Cancelled
+P0727,29,Female,Air India,Mumbai,Kolkata,Business,2024-11-22,3228,162,Cancelled
+P0728,32,Male,SpiceJet,Bangalore,Hyderabad,Business,2024-09-12,5833,144,Delayed
+P0729,60,Female,Air India,Mumbai,Bangalore,Business,2024-03-10,6690,23,On Time
+P0730,42,Male,Akasa Air,Bangalore,Chennai,Business,2024-03-20,3927,0,Cancelled
+P0731,66,Female,Akasa Air,Mumbai,Bangalore,Economy,2024-01-19,4967,154,On Time
+P0732,43,Male,Indigo,Mumbai,Delhi,Economy,2024-05-30,2525,45,Cancelled
+P0733,39,Female,SpiceJet,Mumbai,Hyderabad,Economy,2024-05-06,9009,0,Cancelled
+P0734,50,Male,Vistara,Delhi,Chennai,Business,2024-11-02,6779,0,Delayed
+P0735,59,Male,Air India,Bangalore,Delhi,Economy,2024-03-01,11672,89,Cancelled
+P0736,29,Male,Vistara,Mumbai,Delhi,Economy,2024-01-13,10147,0,Cancelled
+P0737,57,Female,SpiceJet,Bangalore,Mumbai,Business,2024-10-14,11008,0,On Time
+P0738,20,Female,Akasa Air,Kolkata,Mumbai,Economy,2024-08-12,3534,0,On Time
+P0739,66,Female,Akasa Air,Kolkata,Mumbai,Business,2024-02-24,11823,0,Cancelled
+P0740,18,Female,Air India,Bangalore,Mumbai,Business,2024-12-30,4839,35,Cancelled
+P0741,51,Male,Air India,Bangalore,Kolkata,Economy,2024-11-06,5422,0,Delayed
+P0742,21,Female,SpiceJet,Mumbai,Hyderabad,Business,2024-11-17,9368,106,On Time
+P0743,32,Female,Indigo,Chennai,Hyderabad,Economy,2024-04-13,6734,164,Cancelled
+P0744,28,Male,Air India,Bangalore,Mumbai,Economy,2024-10-03,5365,66,Delayed
+P0745,47,Female,SpiceJet,Delhi,Kolkata,Business,2024-11-18,8405,0,Cancelled
+P0746,43,Female,SpiceJet,Delhi,Hyderabad,Business,2024-02-12,7868,117,On Time
+P0747,44,Male,Akasa Air,Chennai,Kolkata,Business,2024-10-30,3866,23,Cancelled
+P0748,68,Female,Akasa Air,Mumbai,Kolkata,Economy,2024-09-11,10218,0,On Time
+P0749,43,Male,Indigo,Mumbai,Chennai,Economy,2024-02-02,9579,135,Delayed
+P0750,20,Male,Akasa Air,Chennai,Kolkata,Economy,2024-03-21,8324,0,On Time
+P0751,56,Male,Air India,Bangalore,Mumbai,Business,2024-10-03,4496,80,On Time
+P0752,47,Female,Indigo,Chennai,Kolkata,Economy,2024-07-18,4408,154,On Time
+P0753,49,Female,Indigo,Delhi,Kolkata,Business,2024-04-19,8761,13,Delayed
+P0754,49,Male,Air India,Mumbai,Hyderabad,Business,2024-08-11,3506,0,Delayed
+P0755,51,Male,Vistara,Delhi,Bangalore,Economy,2024-10-03,6927,0,Cancelled
+P0756,66,Male,Akasa Air,Hyderabad,Mumbai,Economy,2024-04-04,9585,157,Delayed
+P0757,46,Male,Indigo,Chennai,Delhi,Economy,2024-12-08,9545,0,Cancelled
+P0758,70,Female,Air India,Mumbai,Kolkata,Economy,2024-07-13,9074,44,On Time
+P0759,53,Female,Air India,Bangalore,Delhi,Economy,2024-04-23,9519,0,Delayed
+P0760,60,Male,Vistara,Chennai,Hyderabad,Business,2024-10-07,4042,0,Delayed
+P0761,57,Male,SpiceJet,Bangalore,Mumbai,Economy,2024-11-26,6255,0,On Time
+P0762,25,Female,Vistara,Delhi,Kolkata,Business,2024-10-24,11587,40,Delayed
+P0763,40,Female,Air India,Mumbai,Bangalore,Business,2024-03-14,7952,0,Delayed
+P0764,62,Male,Indigo,Chennai,Kolkata,Business,2024-05-01,11575,150,On Time
+P0765,51,Male,Indigo,Hyderabad,Chennai,Economy,2024-12-16,3718,51,Delayed
+P0766,27,Male,Indigo,Kolkata,Bangalore,Economy,2024-09-20,8637,0,Delayed
+P0767,25,Male,Vistara,Bangalore,Delhi,Business,2024-02-09,11412,0,Delayed
+P0768,28,Male,SpiceJet,Chennai,Mumbai,Economy,2024-06-12,3787,0,On Time
+P0769,48,Male,Air India,Delhi,Kolkata,Business,2024-02-21,9526,0,Delayed
+P0770,47,Female,SpiceJet,Kolkata,Chennai,Economy,2024-04-20,6548,170,Cancelled
+P0771,23,Male,Vistara,Bangalore,Chennai,Business,2024-01-01,4193,0,Cancelled
+P0772,58,Male,Air India,Chennai,Kolkata,Business,2024-04-28,8000,0,On Time
+P0773,39,Female,Vistara,Kolkata,Hyderabad,Economy,2024-09-10,6562,45,Cancelled
+P0774,55,Female,Vistara,Kolkata,Chennai,Business,2024-06-28,9132,52,Cancelled
+P0775,56,Female,Vistara,Bangalore,Hyderabad,Business,2024-08-26,10057,0,On Time
+P0776,60,Female,Indigo,Chennai,Bangalore,Business,2024-10-29,9220,0,Delayed
+P0777,35,Female,Vistara,Delhi,Mumbai,Business,2024-12-21,11557,165,Delayed
+P0778,54,Female,Indigo,Delhi,Mumbai,Business,2024-08-29,6481,106,On Time
+P0779,68,Female,Vistara,Delhi,Chennai,Economy,2024-12-28,5853,76,On Time
+P0780,68,Female,Air India,Bangalore,Kolkata,Business,2024-04-26,4162,0,Delayed
+P0781,55,Male,Indigo,Mumbai,Kolkata,Business,2024-03-02,5445,142,Cancelled
+P0782,47,Male,Vistara,Hyderabad,Bangalore,Business,2024-07-10,9495,0,Delayed
+P0783,69,Female,Air India,Chennai,Hyderabad,Business,2024-03-30,5570,0,Cancelled
+P0784,52,Male,SpiceJet,Chennai,Bangalore,Business,2024-07-19,11072,119,Cancelled
+P0785,69,Female,Vistara,Bangalore,Chennai,Business,2024-06-19,7126,87,Delayed
+P0786,30,Male,Air India,Hyderabad,Kolkata,Business,2024-10-23,10429,15,Delayed
+P0787,48,Female,Vistara,Hyderabad,Bangalore,Business,2024-06-08,7202,0,Cancelled
+P0788,55,Female,Indigo,Kolkata,Bangalore,Economy,2024-07-14,8217,46,On Time
+P0789,20,Female,Air India,Hyderabad,Chennai,Economy,2024-07-03,3818,0,On Time
+P0790,35,Male,Air India,Hyderabad,Mumbai,Economy,2024-10-28,2852,0,On Time
+P0791,27,Female,SpiceJet,Bangalore,Chennai,Business,2024-05-23,4638,0,On Time
+P0792,47,Female,Akasa Air,Delhi,Kolkata,Business,2024-07-07,11075,0,Delayed
+P0793,58,Male,Vistara,Hyderabad,Mumbai,Business,2024-05-13,8889,30,Cancelled
+P0794,42,Female,Air India,Mumbai,Chennai,Business,2024-06-11,9155,129,Delayed
+P0795,33,Male,Akasa Air,Mumbai,Kolkata,Business,2024-03-05,9932,68,Delayed
+P0796,19,Female,SpiceJet,Chennai,Bangalore,Economy,2024-09-27,4043,73,On Time
+P0797,31,Male,Indigo,Kolkata,Bangalore,Business,2024-01-26,10247,0,On Time
+P0798,54,Female,Indigo,Hyderabad,Delhi,Business,2024-01-12,10447,156,Delayed
+P0799,41,Male,SpiceJet,Mumbai,Delhi,Economy,2024-12-16,11611,0,On Time
+P0800,19,Male,Air India,Chennai,Bangalore,Business,2024-10-08,9463,0,Delayed
+P0801,18,Female,Indigo,Mumbai,Chennai,Business,2024-11-19,4785,137,Delayed
+P0802,51,Male,Indigo,Bangalore,Chennai,Economy,2024-10-20,3567,77,Delayed
+P0803,27,Female,Vistara,Hyderabad,Delhi,Business,2024-12-23,7530,100,Cancelled
+P0804,59,Female,SpiceJet,Kolkata,Delhi,Business,2024-04-06,4561,0,On Time
+P0805,52,Female,Vistara,Delhi,Kolkata,Economy,2024-05-26,7604,0,Delayed
+P0806,36,Male,Akasa Air,Chennai,Delhi,Business,2024-05-10,7539,20,Delayed
+P0807,24,Female,Air India,Delhi,Bangalore,Economy,2024-07-09,11074,112,Delayed
+P0808,63,Male,Air India,Chennai,Kolkata,Business,2024-12-27,10426,0,Cancelled
+P0809,58,Female,Indigo,Hyderabad,Mumbai,Business,2024-12-15,11695,0,Cancelled
+P0810,28,Male,Air India,Mumbai,Chennai,Economy,2024-01-06,9778,46,On Time
+P0811,38,Female,Akasa Air,Hyderabad,Kolkata,Economy,2024-08-29,5165,155,Delayed
+P0812,40,Female,Akasa Air,Delhi,Chennai,Business,2024-05-12,3078,0,On Time
+P0813,33,Female,Vistara,Delhi,Hyderabad,Economy,2024-05-27,6462,141,Delayed
+P0814,52,Female,Indigo,Kolkata,Mumbai,Business,2024-08-24,7433,42,Delayed
+P0815,70,Female,Indigo,Chennai,Kolkata,Business,2024-05-28,6025,78,Cancelled
+P0816,68,Male,SpiceJet,Kolkata,Delhi,Economy,2024-10-27,6792,40,Delayed
+P0817,43,Male,Air India,Hyderabad,Bangalore,Economy,2024-05-29,10568,0,Cancelled
+P0818,55,Male,Air India,Bangalore,Kolkata,Business,2024-09-16,9604,0,Cancelled
+P0819,31,Female,Akasa Air,Chennai,Kolkata,Business,2024-11-13,5540,59,On Time
+P0820,66,Female,SpiceJet,Hyderabad,Mumbai,Economy,2024-05-22,4916,119,On Time
+P0821,40,Female,Akasa Air,Kolkata,Mumbai,Economy,2024-01-31,11641,49,On Time
+P0822,64,Female,Indigo,Chennai,Delhi,Business,2024-05-09,4577,0,Delayed
+P0823,58,Male,SpiceJet,Hyderabad,Chennai,Business,2024-03-22,8024,46,Cancelled
+P0824,69,Female,Air India,Delhi,Chennai,Business,2024-07-06,3496,172,Cancelled
+P0825,36,Female,Akasa Air,Mumbai,Kolkata,Business,2024-10-22,11157,140,Delayed
+P0826,60,Female,Akasa Air,Delhi,Chennai,Business,2024-10-31,11973,107,Delayed
+P0827,50,Male,SpiceJet,Kolkata,Chennai,Economy,2024-10-22,3169,20,Delayed
+P0828,58,Female,SpiceJet,Bangalore,Kolkata,Business,2024-12-01,5923,0,On Time
+P0829,29,Female,Indigo,Hyderabad,Mumbai,Economy,2024-08-15,11436,0,Delayed
+P0830,64,Female,Indigo,Bangalore,Mumbai,Business,2024-09-20,3997,0,Delayed
+P0831,31,Female,Air India,Kolkata,Delhi,Economy,2024-11-27,10677,0,Cancelled
+P0832,47,Male,Akasa Air,Chennai,Delhi,Business,2024-09-07,5570,32,On Time
+P0833,25,Female,Vistara,Bangalore,Chennai,Economy,2024-03-03,9332,0,Delayed
+P0834,40,Female,Air India,Bangalore,Mumbai,Economy,2024-04-15,2566,0,On Time
+P0835,40,Male,Indigo,Delhi,Kolkata,Economy,2024-05-08,5163,0,Delayed
+P0836,53,Female,Akasa Air,Bangalore,Kolkata,Business,2024-01-13,6397,0,Delayed
+P0837,40,Female,Akasa Air,Mumbai,Bangalore,Economy,2024-04-30,9921,0,Delayed
+P0838,46,Female,Vistara,Chennai,Delhi,Economy,2024-04-17,10903,34,Cancelled
+P0839,68,Male,Air India,Chennai,Kolkata,Economy,2024-07-19,4601,73,On Time
+P0840,35,Male,SpiceJet,Hyderabad,Bangalore,Economy,2024-12-13,2786,0,Delayed
+P0841,23,Female,Vistara,Mumbai,Delhi,Economy,2024-02-04,11260,0,Cancelled
+P0842,53,Female,Indigo,Hyderabad,Kolkata,Business,2024-07-12,11725,119,Delayed
+P0843,30,Male,Akasa Air,Hyderabad,Kolkata,Business,2024-05-02,4902,170,Cancelled
+P0844,68,Male,Akasa Air,Mumbai,Kolkata,Economy,2024-10-11,8118,0,Delayed
+P0845,53,Male,Air India,Bangalore,Chennai,Economy,2024-06-24,3873,0,Delayed
+P0846,55,Male,Indigo,Bangalore,Kolkata,Business,2024-02-18,10660,0,Cancelled
+P0847,47,Female,Indigo,Delhi,Kolkata,Business,2024-09-19,6803,0,On Time
+P0848,68,Male,Akasa Air,Chennai,Hyderabad,Economy,2024-04-08,4117,124,Delayed
+P0849,24,Male,Vistara,Kolkata,Mumbai,Business,2024-09-08,3358,130,Cancelled
+P0850,64,Male,Vistara,Bangalore,Mumbai,Business,2024-11-08,3554,0,On Time
+P0851,31,Male,Vistara,Bangalore,Kolkata,Business,2024-12-11,3322,0,Delayed
+P0852,56,Female,Indigo,Bangalore,Mumbai,Business,2024-11-16,6635,0,On Time
+P0853,27,Male,Indigo,Hyderabad,Mumbai,Business,2024-09-15,10958,34,On Time
+P0854,70,Female,Vistara,Chennai,Mumbai,Business,2024-10-29,10738,0,Cancelled
+P0855,34,Female,SpiceJet,Bangalore,Hyderabad,Business,2024-04-01,4534,54,Delayed
+P0856,61,Male,Air India,Hyderabad,Bangalore,Business,2024-01-11,3887,19,Cancelled
+P0857,21,Male,Vistara,Mumbai,Bangalore,Economy,2024-08-05,5919,145,Cancelled
+P0858,48,Female,Indigo,Bangalore,Chennai,Economy,2024-11-21,4089,10,Cancelled
+P0859,43,Male,Vistara,Mumbai,Kolkata,Economy,2024-12-22,11158,153,Cancelled
+P0860,24,Male,Indigo,Kolkata,Delhi,Business,2024-05-29,9091,140,Delayed
+P0861,33,Female,Air India,Delhi,Mumbai,Economy,2024-05-16,10583,178,Cancelled
+P0862,51,Male,SpiceJet,Bangalore,Delhi,Economy,2024-09-25,5140,169,Delayed
+P0863,60,Male,Air India,Mumbai,Bangalore,Economy,2024-10-22,8438,86,Delayed
+P0864,40,Female,Indigo,Mumbai,Bangalore,Business,2024-03-15,11316,89,Delayed
+P0865,41,Female,Air India,Delhi,Chennai,Business,2024-01-08,3610,160,Delayed
+P0866,63,Male,Indigo,Bangalore,Hyderabad,Economy,2024-03-04,5826,0,Delayed
+P0867,23,Male,Indigo,Bangalore,Kolkata,Business,2024-04-03,2730,0,Cancelled
+P0868,70,Female,SpiceJet,Hyderabad,Bangalore,Business,2024-12-16,5980,0,Delayed
+P0869,24,Female,Air India,Hyderabad,Kolkata,Business,2024-12-13,9111,0,On Time
+P0870,57,Female,SpiceJet,Chennai,Hyderabad,Business,2024-06-09,7430,85,On Time
+P0871,18,Male,SpiceJet,Kolkata,Chennai,Economy,2024-07-08,7807,74,Delayed
+P0872,35,Female,Akasa Air,Bangalore,Mumbai,Business,2024-01-02,5150,0,Cancelled
+P0873,35,Female,SpiceJet,Mumbai,Chennai,Economy,2024-03-24,8632,0,Cancelled
+P0874,50,Female,Air India,Bangalore,Kolkata,Business,2024-06-11,5865,78,On Time
+P0875,41,Male,Akasa Air,Bangalore,Kolkata,Business,2024-10-15,11146,0,Cancelled
+P0876,53,Female,Indigo,Mumbai,Kolkata,Economy,2024-07-29,10662,172,On Time
+P0877,59,Female,Air India,Mumbai,Delhi,Economy,2024-08-18,2709,87,Cancelled
+P0878,54,Male,Vistara,Bangalore,Hyderabad,Economy,2024-03-13,9049,0,Cancelled
+P0879,28,Female,Air India,Delhi,Bangalore,Economy,2024-07-31,11423,139,Cancelled
+P0880,32,Male,Indigo,Hyderabad,Chennai,Economy,2024-05-08,6462,0,On Time
+P0881,34,Male,Akasa Air,Bangalore,Mumbai,Economy,2024-02-04,11198,0,On Time
+P0882,18,Female,SpiceJet,Chennai,Delhi,Economy,2024-09-25,6478,0,Delayed
+P0883,70,Male,Indigo,Delhi,Bangalore,Economy,2024-06-23,7903,66,Cancelled
+P0884,65,Male,Vistara,Kolkata,Bangalore,Business,2024-03-20,4232,34,Delayed
+P0885,21,Female,Akasa Air,Mumbai,Chennai,Business,2024-07-18,8475,0,On Time
+P0886,44,Female,Air India,Delhi,Mumbai,Economy,2024-12-23,7344,0,Cancelled
+P0887,62,Female,Akasa Air,Hyderabad,Delhi,Economy,2024-08-21,7196,71,Delayed
+P0888,28,Female,Vistara,Kolkata,Chennai,Business,2024-07-05,7409,151,On Time
+P0889,36,Male,Akasa Air,Hyderabad,Delhi,Economy,2024-07-03,9978,16,Cancelled
+P0890,44,Male,Akasa Air,Kolkata,Mumbai,Economy,2024-08-16,5844,127,Cancelled
+P0891,39,Male,Vistara,Mumbai,Kolkata,Business,2024-08-17,7500,67,Cancelled
+P0892,68,Male,Akasa Air,Delhi,Hyderabad,Economy,2024-09-02,3745,108,Cancelled
+P0893,54,Female,SpiceJet,Delhi,Mumbai,Economy,2024-12-07,3286,0,On Time
+P0894,68,Female,SpiceJet,Mumbai,Bangalore,Business,2024-01-12,4340,0,Delayed
+P0895,70,Male,Vistara,Chennai,Bangalore,Business,2024-02-03,6807,0,Delayed
+P0896,68,Female,Vistara,Delhi,Hyderabad,Economy,2024-10-30,6494,0,Cancelled
+P0897,62,Female,Indigo,Kolkata,Mumbai,Economy,2024-02-15,11275,0,Delayed
+P0898,69,Male,SpiceJet,Bangalore,Chennai,Economy,2024-05-11,4119,161,On Time
+P0899,54,Male,Vistara,Bangalore,Chennai,Economy,2024-10-31,4082,0,Cancelled
+P0900,66,Male,Indigo,Bangalore,Delhi,Business,2024-11-09,3224,96,On Time
+P0901,24,Female,SpiceJet,Delhi,Bangalore,Economy,2024-09-16,7913,168,Cancelled
+P0902,33,Male,Vistara,Bangalore,Hyderabad,Business,2024-05-25,10023,73,Delayed
+P0903,57,Female,Air India,Mumbai,Chennai,Business,2024-05-09,2716,94,On Time
+P0904,62,Female,SpiceJet,Kolkata,Mumbai,Economy,2024-06-12,8443,0,Delayed
+P0905,18,Male,Akasa Air,Bangalore,Mumbai,Business,2024-02-17,5191,31,Cancelled
+P0906,28,Female,Indigo,Chennai,Hyderabad,Business,2024-11-04,8067,0,Delayed
+P0907,18,Male,SpiceJet,Bangalore,Hyderabad,Economy,2024-10-14,5131,72,On Time
+P0908,58,Male,Indigo,Bangalore,Kolkata,Business,2024-02-03,5061,23,On Time
+P0909,49,Male,Indigo,Chennai,Bangalore,Business,2024-05-15,9626,52,On Time
+P0910,51,Female,SpiceJet,Hyderabad,Kolkata,Economy,2024-09-13,5291,74,Delayed
+P0911,32,Male,Akasa Air,Mumbai,Delhi,Business,2024-06-23,10924,0,Cancelled
+P0912,52,Female,Vistara,Mumbai,Delhi,Economy,2024-01-15,6633,0,On Time
+P0913,64,Female,SpiceJet,Chennai,Bangalore,Economy,2024-06-17,10315,0,Cancelled
+P0914,31,Female,Air India,Kolkata,Delhi,Business,2024-03-20,9325,0,On Time
+P0915,53,Male,Indigo,Kolkata,Hyderabad,Business,2024-10-11,7860,0,On Time
+P0916,34,Female,Vistara,Chennai,Mumbai,Business,2024-12-01,11231,0,On Time
+P0917,34,Female,Akasa Air,Mumbai,Hyderabad,Economy,2024-02-04,8863,0,On Time
+P0918,69,Female,Indigo,Chennai,Kolkata,Economy,2024-06-14,11585,36,Cancelled
+P0919,65,Male,Akasa Air,Bangalore,Delhi,Business,2024-03-17,4847,162,Delayed
+P0920,32,Male,Vistara,Chennai,Delhi,Economy,2024-03-10,10381,50,Delayed
+P0921,22,Female,Air India,Kolkata,Mumbai,Economy,2024-03-23,9398,0,On Time
+P0922,42,Male,Air India,Kolkata,Hyderabad,Economy,2024-08-06,11519,0,Delayed
+P0923,57,Male,Air India,Delhi,Mumbai,Business,2024-09-21,3628,38,On Time
+P0924,42,Male,Akasa Air,Kolkata,Hyderabad,Business,2024-02-26,10079,0,Cancelled
+P0925,64,Male,Indigo,Delhi,Hyderabad,Business,2024-12-01,7419,0,Delayed
+P0926,44,Male,Akasa Air,Delhi,Kolkata,Business,2024-03-20,6780,56,Delayed
+P0927,68,Female,Air India,Kolkata,Hyderabad,Economy,2024-06-03,2706,0,On Time
+P0928,38,Male,Vistara,Mumbai,Hyderabad,Economy,2024-01-17,11717,0,Cancelled
+P0929,32,Male,Vistara,Mumbai,Hyderabad,Business,2024-05-26,8771,147,Cancelled
+P0930,40,Female,Vistara,Hyderabad,Mumbai,Business,2024-09-20,2956,0,Delayed
+P0931,42,Female,Akasa Air,Bangalore,Delhi,Economy,2024-04-18,8720,0,On Time
+P0932,59,Female,Akasa Air,Hyderabad,Bangalore,Business,2024-04-26,3268,0,Delayed
+P0933,31,Male,Akasa Air,Chennai,Hyderabad,Economy,2024-04-10,3147,0,On Time
+P0934,19,Female,SpiceJet,Hyderabad,Bangalore,Economy,2024-09-16,8610,0,Delayed
+P0935,67,Male,SpiceJet,Hyderabad,Kolkata,Business,2024-07-31,11081,115,Delayed
+P0936,62,Male,Akasa Air,Hyderabad,Bangalore,Business,2024-07-19,9635,78,Delayed
+P0937,62,Male,SpiceJet,Hyderabad,Kolkata,Business,2024-07-11,5798,78,Delayed
+P0938,25,Female,Akasa Air,Hyderabad,Mumbai,Economy,2024-05-10,11567,0,On Time
+P0939,62,Female,Vistara,Chennai,Bangalore,Business,2024-03-25,10588,0,Delayed
+P0940,24,Male,SpiceJet,Hyderabad,Kolkata,Business,2024-10-06,5941,32,On Time
+P0941,62,Male,Air India,Bangalore,Delhi,Business,2024-03-26,4187,0,Cancelled
+P0942,18,Female,Air India,Delhi,Chennai,Economy,2024-02-13,6881,0,Delayed
+P0943,50,Female,Vistara,Delhi,Kolkata,Business,2024-07-26,5392,56,On Time
+P0944,21,Female,Air India,Delhi,Kolkata,Business,2024-02-24,3908,0,Delayed
+P0945,68,Male,Air India,Chennai,Bangalore,Economy,2024-10-15,4886,14,Cancelled
+P0946,18,Female,Indigo,Bangalore,Chennai,Economy,2024-09-29,3113,0,Delayed
+P0947,56,Male,Indigo,Kolkata,Chennai,Economy,2024-08-29,9355,57,Delayed
+P0948,56,Male,SpiceJet,Kolkata,Mumbai,Economy,2024-05-13,3973,0,Delayed
+P0949,58,Female,SpiceJet,Bangalore,Kolkata,Business,2024-08-03,6729,0,On Time
+P0950,51,Male,Indigo,Hyderabad,Delhi,Economy,2024-09-29,8366,0,On Time
+P0951,18,Female,Indigo,Hyderabad,Chennai,Business,2024-04-18,2537,13,On Time
+P0952,30,Male,Indigo,Delhi,Bangalore,Business,2024-10-07,6175,71,On Time
+P0953,52,Male,Indigo,Bangalore,Mumbai,Economy,2024-10-22,7550,65,Cancelled
+P0954,66,Female,SpiceJet,Chennai,Hyderabad,Business,2024-03-10,7185,0,Cancelled
+P0955,20,Male,SpiceJet,Mumbai,Delhi,Economy,2024-12-02,5222,35,Cancelled
+P0956,66,Male,Akasa Air,Hyderabad,Chennai,Business,2024-09-26,5832,0,Delayed
+P0957,36,Female,SpiceJet,Kolkata,Mumbai,Business,2024-11-30,6127,55,On Time
+P0958,61,Female,Vistara,Chennai,Mumbai,Economy,2024-12-23,3893,0,Cancelled
+P0959,53,Female,Vistara,Bangalore,Chennai,Business,2024-02-22,3455,143,Delayed
+P0960,56,Male,Akasa Air,Delhi,Mumbai,Economy,2024-10-03,5393,179,Delayed
+P0961,33,Male,Air India,Hyderabad,Bangalore,Economy,2024-05-19,9989,177,On Time
+P0962,21,Male,Air India,Mumbai,Bangalore,Economy,2024-03-22,2861,97,Delayed
+P0963,34,Female,Air India,Chennai,Mumbai,Economy,2024-07-18,7210,120,Delayed
+P0964,31,Male,SpiceJet,Mumbai,Hyderabad,Business,2024-11-14,4260,0,Cancelled
+P0965,29,Female,Akasa Air,Mumbai,Kolkata,Business,2024-08-29,10097,0,On Time
+P0966,70,Female,SpiceJet,Hyderabad,Mumbai,Economy,2024-10-30,3334,0,Cancelled
+P0967,47,Female,Indigo,Mumbai,Kolkata,Business,2024-09-01,9646,0,Cancelled
+P0968,36,Female,Air India,Delhi,Chennai,Economy,2024-08-09,5714,57,Delayed
+P0969,52,Female,Indigo,Mumbai,Chennai,Economy,2024-01-30,3048,107,On Time
+P0970,33,Male,Indigo,Chennai,Bangalore,Economy,2024-01-03,4766,0,Delayed
+P0971,62,Female,Akasa Air,Chennai,Hyderabad,Economy,2024-06-06,10720,83,Delayed
+P0972,68,Male,SpiceJet,Chennai,Delhi,Economy,2024-11-29,8310,0,On Time
+P0973,32,Male,Air India,Kolkata,Chennai,Economy,2024-12-08,3259,35,Delayed
+P0974,65,Male,Vistara,Mumbai,Bangalore,Economy,2024-03-22,8824,169,Cancelled
+P0975,64,Male,Indigo,Chennai,Delhi,Business,2024-04-19,7491,179,On Time
+P0976,55,Male,Akasa Air,Delhi,Bangalore,Business,2024-06-22,8758,0,Delayed
+P0977,61,Female,Akasa Air,Chennai,Mumbai,Business,2024-08-26,3216,73,Delayed
+P0978,49,Male,Indigo,Chennai,Kolkata,Business,2024-04-10,10671,65,Cancelled
+P0979,31,Female,Vistara,Chennai,Hyderabad,Business,2024-07-04,3620,0,Cancelled
+P0980,53,Female,Vistara,Chennai,Bangalore,Economy,2024-08-05,7957,0,Delayed
+P0981,66,Male,Indigo,Mumbai,Bangalore,Economy,2024-08-08,8441,118,On Time
+P0982,46,Male,Vistara,Delhi,Bangalore,Business,2024-08-04,6184,37,Delayed
+P0983,36,Female,Air India,Delhi,Mumbai,Business,2024-03-05,3620,0,Delayed
+P0984,52,Female,Akasa Air,Delhi,Bangalore,Economy,2024-04-05,5051,0,On Time
+P0985,22,Male,Indigo,Mumbai,Delhi,Economy,2024-03-08,3258,129,Cancelled
+P0986,59,Female,SpiceJet,Delhi,Chennai,Business,2024-10-23,8836,0,Cancelled
+P0987,50,Female,Air India,Mumbai,Chennai,Business,2024-07-05,2615,69,On Time
+P0988,28,Female,SpiceJet,Bangalore,Mumbai,Business,2024-06-17,4098,0,On Time
+P0989,40,Female,Akasa Air,Chennai,Bangalore,Business,2024-09-08,4591,141,Delayed
+P0990,65,Male,Indigo,Kolkata,Bangalore,Economy,2024-10-20,5067,139,On Time
+P0991,19,Female,Air India,Mumbai,Hyderabad,Business,2024-01-16,11610,0,Cancelled
+P0992,38,Male,Indigo,Bangalore,Delhi,Economy,2024-07-13,4661,50,Delayed
+P0993,29,Female,Akasa Air,Kolkata,Delhi,Business,2024-11-09,9642,0,Cancelled
+P0994,43,Female,Air India,Kolkata,Bangalore,Economy,2024-09-24,6641,178,Delayed
+P0995,37,Female,SpiceJet,Chennai,Bangalore,Economy,2024-10-02,9252,0,On Time
+P0996,27,Female,Vistara,Bangalore,Hyderabad,Business,2024-01-20,7451,90,Delayed
+P0997,58,Female,Indigo,Chennai,Delhi,Business,2024-12-25,10438,141,Delayed
+P0998,64,Female,Indigo,Kolkata,Chennai,Business,2024-08-23,2587,0,Cancelled
+P0999,49,Female,Akasa Air,Bangalore,Kolkata,Business,2024-08-12,4580,159,On Time
+P1000,62,Male,Vistara,Kolkata,Mumbai,Economy,2024-07-01,8630,144,Cancelled
